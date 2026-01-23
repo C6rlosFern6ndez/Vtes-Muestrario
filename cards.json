@@ -42,6 +42,12 @@
         "description": "Variante avanzada de resistencia física extrema frente a armas de fuego."
     },
     {
+        "name": "Kalyani, Agent of Doom",
+        "folder": "Personajes",
+        "image": "Imagenes/Personajes/Kalyani, Agent of Doom.png",
+        "description": ""
+    },
+    {
         "name": "Majesty",
         "folder": "Combat",
         "image": "Imagenes/Combat/Majesty.png",
@@ -64,6 +70,12 @@
         "folder": "Personajes",
         "image": "Imagenes/Personajes/Alexandra2.png",
         "description": "Alexandra encarna la cúspide de la autoridad y la sofisticación dentro de la Camarilla, ocupando un asiento en el legendario Círculo Interno como la representante definitiva del Clan Toreador. Lejos de las pasiones efímeras de los neonatos o las intrigas menores de los Príncipes, ella es una de las mentes arquitectas que sostienen la estructura de la Mascarada a nivel global, decidiendo el destino de linajes enteros con un susurro o un gesto imperceptible. Su belleza no es un simple adorno, sino un arma forjada y preservada a lo largo de siglos de diplomacia letal, ocultando una voluntad de hierro que ha sobrevivido a revueltas, inquisiciones y el paso implacable del tiempo. Como guardiana de los principios fundacionales de la Estirpe, Alexandra observa el mundo desde una posición de indiferencia divina, asegurándose de que el arte del poder y la elegancia de la tradición sigan siendo los pilares sobre los que se asienta el imperio de las sombras que ella misma ayuda a dirigir con una precisión quirúrgica."
+    },
+    {
+        "name": "Algirdas, The Solar Prophet",
+        "folder": "Personajes",
+        "image": "Imagenes/Personajes/Algirdas, The Solar Prophet.png",
+        "description": ""
     },
     {
         "name": "Anarch Convert",
