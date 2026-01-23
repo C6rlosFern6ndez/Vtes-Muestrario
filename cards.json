@@ -138,12 +138,6 @@
         "description": "Una masa de criaturas menores que actúan bajo una sola voluntad colectiva."
     },
     {
-        "name": "Makarios",
-        "folder": "Personajes",
-        "image": "Imagenes/Personajes/Makarios.png",
-        "description": "Mercader de secretos del clan Setita especializado en el comercio de sangre."
-    },
-    {
         "name": "Maraina Gilbert",
         "folder": "Personajes",
         "image": "Imagenes/Personajes/Maraina Gilbert.jpeg",
