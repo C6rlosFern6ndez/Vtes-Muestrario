@@ -87,13 +87,13 @@
         "name": "Anatole",
         "folder": "Personajes",
         "image": "Imagenes/Personajes/Anatole.png",
-        "description": "El profeta Malkavian cuyas visiones guían o condenan a aquellos que se atreven a escuchar sus palabras."
+        "description": "Anatole es el profeta errante por excelencia del Clan Malkavian, una figura cuya locura trasciende el simple trastorno mental para convertirse en un canal directo de visiones apocalípticas y verdades divinas que pocos pueden soportar. Como childe de Pierre l'Imbécile, este influyente vampiro de sexta generación ha dedicado su existencia inmortal a descifrar los secretos de la Gehenna y el Libro de Nod, bajo la firme creencia de que su voz no es suya, sino el eco de una voluntad superior que lo guía a través de las sombras de la historia. A menudo acompañado por la Lasombra Lucita de Aragón y el erudito Gangrel Beckett, Anatole recorre el mundo no como un conquistador, sino como un mensajero del destino final de la Estirpe, cuya presencia inquieta tanto a la Camarilla como al Sabbat por su capacidad de ver más allá del velo de la Mascarada. Su psique es un mosaico de almas y voces, llegando incluso a hablar con el tono de entidades demoníacas o víctimas sacrificadas como Octavio, lo que refleja su naturaleza como un receptáculo de conocimientos prohibidos. Fanático devoto de la Senda de Leopoldo, Anatole observa el declive de los vampiros con una mezcla de piedad y júbilo sombrío, convencido de que su martirio personal y su búsqueda de la iluminación son los únicos faros posibles ante la llegada inminente de las Noches Finales."
     },
     {
         "name": "Anneke",
         "folder": "Personajes",
         "image": "Imagenes/Personajes/Anneke.png",
-        "description": "Justicar Toreador experta en el uso de la rapidez y el arte del duelo."
+        "description": "Anneke es una de las figuras más respetadas y antiguas dentro de la Camarilla, habiendo servido durante siglos como la Justicar del Clan Toreador, una posición que le otorga un poder casi absoluto sobre la justicia y la política de la secta a nivel mundial. Conocida por poseer una belleza serena y una elegancia que parece detenida en el tiempo, Anneke no es solo una mecenas de las artes, sino una estratega implacable que ha sobrevivido a innumerables purgas y conflictos internos gracias a su agudo instinto y a su capacidad para ver lo que otros ignoran. Se dice que su mirada es capaz de atravesar cualquier engaño, una habilidad que en la mitología de la Estirpe se conoce como el -Ojo del Águila-, permitiéndole vigilar sus dominios y detectar amenazas mucho antes de que se manifiesten. A menudo se la asocia en las crónicas de poder con otras eminencias como Alexandra y Anson, formando un triunvirato de influencia Toreador que dicta las tendencias y las leyes de las noches eternas. A pesar de su apariencia sofisticada y su amor por los entornos refinados, Anneke es una guerrera de la diplomacia letal que no duda en usar toda la maquinaria de la Camarilla para aplastar a los anarquistas o a cualquier elemento que amenace la estabilidad de la Mascarada, recordándoles a todos que tras la máscara de la musa se esconde el corazón de una de las depredadoras más eficaces de la historia vampírica."
     },
     {
         "name": "Anson",
@@ -105,7 +105,7 @@
         "name": "Antonio D'Erlette",
         "folder": "Personajes",
         "image": "Imagenes/Personajes/Antonio d'Erlette.png",
-        "description": "Estratega del clan Giovanni, experto en el manejo de recursos tanto vivos como muertos."
+        "description": "Antonio d'Erlette se alza como el arquitecto intelectual del mayor cisma en la historia de la magia de sangre, un hombre que prefirió la condenación absoluta antes que la servidumbre burocrática de la Pirámide. Como antiguo miembro del Consejo de los Siete de los Tremere, utilizó su genio estratégico para orquestar la huida hacia el Sabbat, fundando la Casa d'Erlette y reclamando una libertad mística que despojaba a la taumaturgia de toda ética y límite. Su ambición, sin embargo, lo llevó mucho más allá de la simple rebelión política: fue él quien estrechó la mano prohibida de los Nephandi, sellando pactos con estos arquitectos del olvido para infundir en su linaje una mancha de entropía y vacío. Al abrazar las Qlippoth y la voluntad de deshacer la creación, Antonio transformó su poder en una afrenta metafísica contra el universo, mezclando la sangre de Caín con secretos que fracturaron la realidad misma y permitieron que la nada se filtrara en sus rituales. Este camino de soberbia y sombras encontró su fin absoluto en 1998 durante la Noche del Corazón Rojo, cuando un ritual masivo de sus antiguos hermanos en Viena extinguió su vida y la de todos los Tremere antitribu en un instante, dejando su legado como el amargo recordatorio de un mago que, en su afán por no servir a nadie, terminó entregando su esencia y la de sus seguidores a la nada misma."
     },
     {
         "name": "Basilia2",
@@ -142,6 +142,12 @@
         "folder": "Personajes",
         "image": "Imagenes/Personajes/Goratrix.png",
         "description": "Antitribu Tremere y maestro de la taumaturgia oscura. Su conocimiento prohibido es su mayor arma."
+    },
+    {
+        "name": "Hekla Bonecrusher Jonasdottir",
+        "folder": "Personajes",
+        "image": "Imagenes/Personajes/Hekla Bonecrusher Jonasdottir.png",
+        "description": ""
     },
     {
         "name": "Horde",
