@@ -190,5 +190,11 @@
         "folder": "Personajes",
         "image": "Imagenes/Personajes/Zebulon.png",
         "description": "Eremita Malkavian que posee fragmentos de verdades olvidadas por el tiempo."
+    },
+    {
+        "name": "Zebulon",
+        "folder": "Personajes",
+        "image": "Imagenes/Personajes/Zebulon2.png",
+        "description": "Eremita Malkavian que posee fragmentos de verdades olvidadas por el tiempo."
     }
 ]
