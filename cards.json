@@ -1,0 +1,162 @@
+[
+    {
+        "name": "Herald Of Topheth",
+        "folder": "Aliados",
+        "image": "Imagenes/Aliados/Herald of Topheth.png"
+    },
+    {
+        "name": "Nephandus",
+        "folder": "Aliados",
+        "image": "Imagenes/Aliados/Nephandus.png"
+    },
+    {
+        "name": "Nephandus2",
+        "folder": "Aliados",
+        "image": "Imagenes/Aliados/Nephandus2.png"
+    },
+    {
+        "name": "Nephandus3",
+        "folder": "Aliados",
+        "image": "Imagenes/Aliados/Nephandus3.png"
+    },
+    {
+        "name": "Nephandus4",
+        "folder": "Aliados",
+        "image": "Imagenes/Aliados/Nephandus4.png"
+    },
+    {
+        "name": "Immortal",
+        "folder": "Combat",
+        "image": "Imagenes/Combat/Immortal.png"
+    },
+    {
+        "name": "Immortal3",
+        "folder": "Combat",
+        "image": "Imagenes/Combat/Immortal3.png"
+    },
+    {
+        "name": "Majesty",
+        "folder": "Combat",
+        "image": "Imagenes/Combat/Majesty.png"
+    },
+    {
+        "name": "Aabbt Kindred",
+        "folder": "Personajes",
+        "image": "Imagenes/Personajes/Aabbt Kindred.png"
+    },
+    {
+        "name": "Alexandra",
+        "folder": "Personajes",
+        "image": "Imagenes/Personajes/Alexandra.png"
+    },
+    {
+        "name": "Alexandra2",
+        "folder": "Personajes",
+        "image": "Imagenes/Personajes/Alexandra2.png"
+    },
+    {
+        "name": "Anarch Convert",
+        "folder": "Personajes",
+        "image": "Imagenes/Personajes/Anarch Convert.png"
+    },
+    {
+        "name": "Anatole",
+        "folder": "Personajes",
+        "image": "Imagenes/Personajes/Anatole.png"
+    },
+    {
+        "name": "Anneke",
+        "folder": "Personajes",
+        "image": "Imagenes/Personajes/Anneke.png"
+    },
+    {
+        "name": "Anson",
+        "folder": "Personajes",
+        "image": "Imagenes/Personajes/Anson.png"
+    },
+    {
+        "name": "Antonio D'Erlette",
+        "folder": "Personajes",
+        "image": "Imagenes/Personajes/Antonio d'Erlette.png"
+    },
+    {
+        "name": "Basilia2",
+        "folder": "Personajes",
+        "image": "Imagenes/Personajes/Basilia2.png"
+    },
+    {
+        "name": "Bela",
+        "folder": "Personajes",
+        "image": "Imagenes/Personajes/Bela.png"
+    },
+    {
+        "name": "Cibeles",
+        "folder": "Personajes",
+        "image": "Imagenes/Personajes/Cibeles.png"
+    },
+    {
+        "name": "Fancois-Villon5",
+        "folder": "Personajes",
+        "image": "Imagenes/Personajes/Fancois-Villon5.png"
+    },
+    {
+        "name": "Giotto Verducci",
+        "folder": "Personajes",
+        "image": "Imagenes/Personajes/Giotto Verducci.png"
+    },
+    {
+        "name": "Goratrix",
+        "folder": "Personajes",
+        "image": "Imagenes/Personajes/Goratrix.png"
+    },
+    {
+        "name": "Horde",
+        "folder": "Personajes",
+        "image": "Imagenes/Personajes/Horde.png"
+    },
+    {
+        "name": "Makarios",
+        "folder": "Personajes",
+        "image": "Imagenes/Personajes/Makarios.png"
+    },
+    {
+        "name": "Maraina Gilbert",
+        "folder": "Personajes",
+        "image": "Imagenes/Personajes/Maraina Gilbert.jpeg"
+    },
+    {
+        "name": "Moncada",
+        "folder": "Personajes",
+        "image": "Imagenes/Personajes/Moncada.png"
+    },
+    {
+        "name": "Saulot, The Wanderer",
+        "folder": "Personajes",
+        "image": "Imagenes/Personajes/Saulot, The Wanderer.png"
+    },
+    {
+        "name": "The Capuchin",
+        "folder": "Personajes",
+        "image": "Imagenes/Personajes/The Capuchin.png"
+    },
+    {
+        "name": "The-Beast",
+        "folder": "Personajes",
+        "image": "Imagenes/Personajes/The-Beast.png"
+    },
+    {
+        "name": "Theo Bell",
+        "folder": "Personajes",
+        "image": "Imagenes/Personajes/Theo Bell.png"
+    },
+    {
+        "name": "Tupdog",
+        "folder": "Personajes",
+        "image": "Imagenes/Personajes/Tupdog.png"
+    },
+    {
+        "name": "Zebulon",
+        "folder": "Personajes",
+        "image": "Imagenes/Personajes/Zebulon.png"
+    }
+]
