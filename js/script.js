@@ -1,34 +1,54 @@
-// Estado global de la aplicación
-let cardsData = []; 
+/**
+ * Script de gestión de cartas VTES
+ * Maneja la carga dinámica, filtrado y visualización de fichas de personaje.
+ */
 
+let cardsData = []; // Buffer para los datos del JSON
+
+// Referencias a elementos del DOM
 const cardContainer = document.getElementById("cardContainer");
 const searchInput = document.getElementById("searchInput");
 const folderFilter = document.getElementById("folderFilter");
+const modal = document.getElementById("cardModal");
+const closeModalBtn = document.querySelector(".close-modal");
 
 /**
- * Inicializa la aplicación cargando el recurso externo
+ * Inicialización de la aplicación
  */
 async function init() {
     try {
-        const response = await fetch('./cards.json'); // Carga asíncrona
-        if (!response.ok) throw new Error("No se pudo cargar el JSON");
+        // Carga los datos desde el archivo externo cards.json
+        const response = await fetch('./cards.json');
+        if (!response.ok) throw new Error("Error al cargar el repositorio de cartas.");
         
         cardsData = await response.json();
         
         populateFolderFilter();
         renderCards(cardsData);
         
+        // Listeners para filtros
         searchInput.addEventListener("input", filterCards);
         folderFilter.addEventListener("change", filterCards);
+        
+        // Listener para cerrar modal
+        closeModalBtn.addEventListener("click", () => modal.style.display = "none");
+        window.addEventListener("click", (e) => {
+            if (e.target === modal) modal.style.display = "none";
+        });
+
     } catch (error) {
-        console.error("Error en el runtime:", error);
-        cardContainer.innerHTML = `<div class="loader">Error al cargar datos: ${error.message}</div>`;
+        console.error("Critical Error:", error);
+        cardContainer.innerHTML = `<div class="loader">Muerte definitiva: ${error.message}</div>`;
     }
 }
 
+/**
+ * Genera las opciones del select basadas en las carpetas existentes
+ */
 function populateFolderFilter() {
-    folderFilter.innerHTML = "<option value=\"\">Todas las carpetas</option>";
+    folderFilter.innerHTML = "<option value=\"\">Todas las categorías</option>";
     const folders = [...new Set(cardsData.map(card => card.folder))].filter(Boolean);
+    
     folders.sort().forEach(folder => {
         const option = document.createElement("option");
         option.value = folder;
@@ -37,30 +57,59 @@ function populateFolderFilter() {
     });
 }
 
+/**
+ * Renderiza el grid de cartas
+ */
 function renderCards(cards) {
     cardContainer.innerHTML = "";
+    
     if (cards.length === 0) {
-        cardContainer.innerHTML = "<div class=\"loader\">No hay coincidencias.</div>";
+        cardContainer.innerHTML = "<div class=\"loader\">No se han encontrado vástagos con esos criterios.</div>";
         return;
     }
 
-    const fragment = document.createDocumentFragment(); // Optimización de renderizado
+    const fragment = document.createDocumentFragment();
+
     cards.forEach(card => {
         const cardElement = document.createElement("div");
         cardElement.className = "card";
+        
         cardElement.innerHTML = `
             <div class="card-image-container">
-                <img src="${card.image}" alt="${card.name}" loading="lazy" onerror="this.src='https://via.placeholder.com/250x350?text=Error'">
+                <img src="${card.image}" alt="${card.name}" loading="lazy" onerror="this.src='https://via.placeholder.com/250x350?text=Censurado'">
             </div>
             <div class="card-info">
                 <div class="card-name">${card.name}</div>
                 <div class="card-folder">${card.folder}</div>
-            </div>`;
+            </div>
+        `;
+
+        // Evento para abrir la ficha detallada
+        cardElement.addEventListener("click", () => openCharacterSheet(card));
         fragment.appendChild(cardElement);
     });
+
     cardContainer.appendChild(fragment);
 }
 
+/**
+ * Abre el modal con la historia del personaje
+ */
+function openCharacterSheet(card) {
+    document.getElementById("modalImg").src = card.image;
+    document.getElementById("modalName").textContent = card.name;
+    document.getElementById("modalFolder").textContent = `Categoría: ${card.folder}`;
+    
+    // Si no existe descripción en el JSON, muestra un texto por defecto
+    const bio = card.description || "Los archivos de la Camarilla no contienen información sobre este sujeto.";
+    document.getElementById("modalDescription").textContent = bio;
+    
+    modal.style.display = "block";
+}
+
+/**
+ * Filtra los datos según el input del usuario
+ */
 function filterCards() {
     const searchTerm = searchInput.value.toLowerCase();
     const selectedFolder = folderFilter.value;
@@ -74,4 +123,5 @@ function filterCards() {
     renderCards(filteredCards);
 }
 
+// Entry point
 document.addEventListener("DOMContentLoaded", init);

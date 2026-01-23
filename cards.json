@@ -2,161 +2,193 @@
     {
         "name": "Herald Of Topheth",
         "folder": "Aliados",
-        "image": "Imagenes/Aliados/Herald of Topheth.png"
+        "image": "Imagenes/Aliados/Herald of Topheth.png",
+        "description": "Los Herald of Topheth son una facción o línea de sangre extremadamente oscura dentro del Sabbat, vinculada a los Baali (vampiros infernalistas) o a los Tremere antitribu que han caído en el abismo. El Concepto: Son mensajeros del infierno. Su nombre proviene de Tofet, un lugar de sacrificio cerca de Jerusalén donde se quemaban niños en honor a Moloch. Su Función: Actúan como heraldos de la Gehenna, pero desde una perspectiva puramente destructiva y nihilista. Creen que su deber es preparar el mundo para el despertar de los Hijos del Abismo.Poderes: Utilizan la Taumaturgia Oscura y la Presencia para infundir un terror paralizante. No solo matan el cuerpo, sino que buscan fracturar la mente de sus víctimas antes de que mueran."
     },
     {
         "name": "Nephandus",
         "folder": "Aliados",
-        "image": "Imagenes/Aliados/Nephandus.png"
+        "image": "Imagenes/Aliados/Nephandus.png",
+        "description": "Mago caído que sirve a poderes oscuros. Capaz de reducir el daño entrante y atacar con precisión quirúrgica."
     },
     {
         "name": "Nephandus2",
         "folder": "Aliados",
-        "image": "Imagenes/Aliados/Nephandus2.png"
+        "image": "Imagenes/Aliados/Nephandus2.png",
+        "description": "Variante del Nephandus con enfoque en el control de recursos del oponente."
     },
     {
         "name": "Nephandus3",
         "folder": "Aliados",
-        "image": "Imagenes/Aliados/Nephandus3.png"
+        "image": "Imagenes/Aliados/Nephandus3.png",
+        "description": "Especialista en rituales de sacrificio para potenciar las disciplinas del clan."
     },
     {
         "name": "Nephandus4",
         "folder": "Aliados",
-        "image": "Imagenes/Aliados/Nephandus4.png"
+        "image": "Imagenes/Aliados/Nephandus4.png",
+        "description": "Protector místico encargado de la defensa de los refugios durante el día."
     },
     {
         "name": "Immortal",
         "folder": "Combat",
-        "image": "Imagenes/Combat/Immortal.png"
+        "image": "Imagenes/Combat/Immortal.png",
+        "description": "Maniobra de combate que permite al vástago resistir heridas fatales, manteniéndose en la lucha cuando otros caerían."
     },
     {
         "name": "Immortal3",
         "folder": "Combat",
-        "image": "Imagenes/Combat/Immortal3.png"
+        "image": "Imagenes/Combat/Immortal3.png",
+        "description": "Variante avanzada de resistencia física extrema frente a armas de fuego."
     },
     {
         "name": "Majesty",
         "folder": "Combat",
-        "image": "Imagenes/Combat/Majesty.png"
+        "image": "Imagenes/Combat/Majesty.png",
+        "description": "Disciplina de Presencia. El vampiro manifiesta una autoridad tan abrumadora que el oponente es incapaz de continuar el ataque."
     },
     {
         "name": "Aabbt Kindred",
         "folder": "Personajes",
-        "image": "Imagenes/Personajes/Aabbt Kindred.png"
+        "image": "Imagenes/Personajes/Aabbt Kindred.png",
+        "description": "Seguidores de Set que operan en las sombras, expandiendo la influencia de su clan a través de la corrupción."
     },
     {
         "name": "Alexandra",
         "folder": "Personajes",
-        "image": "Imagenes/Personajes/Alexandra.png"
+        "image": "Imagenes/Personajes/Alexandra.png",
+        "description": "Figura prominente cuyas alianzas y habilidades en la corte la convierten en una pieza clave del tablero político."
     },
     {
         "name": "Alexandra2",
         "folder": "Personajes",
-        "image": "Imagenes/Personajes/Alexandra2.png"
+        "image": "Imagenes/Personajes/Alexandra2.png",
+        "description": "Iteración de Alexandra con mayor enfoque en la manipulación de votos en el Elíseo."
     },
     {
         "name": "Anarch Convert",
         "folder": "Personajes",
-        "image": "Imagenes/Personajes/Anarch Convert.png"
+        "image": "Imagenes/Personajes/Anarch Convert.png",
+        "description": "Un vástago que ha decidido abandonar las estructuras de la Camarilla para unirse a la causa Anarquista."
     },
     {
         "name": "Anatole",
         "folder": "Personajes",
-        "image": "Imagenes/Personajes/Anatole.png"
+        "image": "Imagenes/Personajes/Anatole.png",
+        "description": "El profeta Malkavian cuyas visiones guían o condenan a aquellos que se atreven a escuchar sus palabras."
     },
     {
         "name": "Anneke",
         "folder": "Personajes",
-        "image": "Imagenes/Personajes/Anneke.png"
+        "image": "Imagenes/Personajes/Anneke.png",
+        "description": "Justicar Toreador experta en el uso de la rapidez y el arte del duelo."
     },
     {
         "name": "Anson",
         "folder": "Personajes",
-        "image": "Imagenes/Personajes/Anson.png"
+        "image": "Imagenes/Personajes/Anson.png",
+        "description": "Maestro del Elíseo conocido por su capacidad de potenciar las acciones de sus aliados mediante su Presencia."
     },
     {
         "name": "Antonio D'Erlette",
         "folder": "Personajes",
-        "image": "Imagenes/Personajes/Antonio d'Erlette.png"
+        "image": "Imagenes/Personajes/Antonio d'Erlette.png",
+        "description": "Estratega del clan Giovanni, experto en el manejo de recursos tanto vivos como muertos."
     },
     {
         "name": "Basilia2",
         "folder": "Personajes",
-        "image": "Imagenes/Personajes/Basilia2.png"
+        "image": "Imagenes/Personajes/Basilia2.png",
+        "description": "Guerrera del clan Nosferatu especializada en tácticas de guerrilla urbana."
     },
     {
         "name": "Bela",
         "folder": "Personajes",
-        "image": "Imagenes/Personajes/Bela.png"
+        "image": "Imagenes/Personajes/Bela.png",
+        "description": "Miembro del clan Tzimisce capaz de moldear su carne para adaptarse a cualquier situación de combate."
     },
     {
         "name": "Cibeles",
         "folder": "Personajes",
-        "image": "Imagenes/Personajes/Cibeles.png"
+        "image": "Imagenes/Personajes/Cibeles.png",
+        "description": "Antigua del clan Gangrel con un vínculo inquebrantable con la tierra y las bestias."
     },
     {
         "name": "Fancois-Villon5",
         "folder": "Personajes",
-        "image": "Imagenes/Personajes/Fancois-Villon5.png"
+        "image": "Imagenes/Personajes/Fancois-Villon5.png",
+        "description": "Príncipe de París. Su carisma y poder político son casi inigualables en Europa."
     },
     {
         "name": "Giotto Verducci",
         "folder": "Personajes",
-        "image": "Imagenes/Personajes/Giotto Verducci.png"
+        "image": "Imagenes/Personajes/Giotto Verducci.png",
+        "description": "Diplomático de la familia Giovanni experto en la adquisición de activos financieros."
     },
     {
         "name": "Goratrix",
         "folder": "Personajes",
-        "image": "Imagenes/Personajes/Goratrix.png"
+        "image": "Imagenes/Personajes/Goratrix.png",
+        "description": "Antitribu Tremere y maestro de la taumaturgia oscura. Su conocimiento prohibido es su mayor arma."
     },
     {
         "name": "Horde",
         "folder": "Personajes",
-        "image": "Imagenes/Personajes/Horde.png"
+        "image": "Imagenes/Personajes/Horde.png",
+        "description": "Una masa de criaturas menores que actúan bajo una sola voluntad colectiva."
     },
     {
         "name": "Makarios",
         "folder": "Personajes",
-        "image": "Imagenes/Personajes/Makarios.png"
+        "image": "Imagenes/Personajes/Makarios.png",
+        "description": "Mercader de secretos del clan Setita especializado en el comercio de sangre."
     },
     {
         "name": "Maraina Gilbert",
         "folder": "Personajes",
-        "image": "Imagenes/Personajes/Maraina Gilbert.jpeg"
+        "image": "Imagenes/Personajes/Maraina Gilbert.jpeg",
+        "description": "Investigadora del clan Tremere dedicada al estudio de los linajes perdidos."
     },
     {
         "name": "Moncada",
         "folder": "Personajes",
-        "image": "Imagenes/Personajes/Moncada.png"
+        "image": "Imagenes/Personajes/Moncada.png",
+        "description": "Cardenal Lasombra y maestro de la Obtenebración. Su fe en las sombras es absoluta."
     },
     {
         "name": "Saulot, The Wanderer",
         "folder": "Personajes",
-        "image": "Imagenes/Personajes/Saulot, The Wanderer.png"
+        "image": "Imagenes/Personajes/Saulot, The Wanderer.png",
+        "description": "Fundador del clan Salubri. Su búsqueda de la Golconda lo ha llevado por senderos espirituales prohibidos."
     },
     {
         "name": "The Capuchin",
         "folder": "Personajes",
-        "image": "Imagenes/Personajes/The Capuchin.png"
+        "image": "Imagenes/Personajes/The Capuchin.png",
+        "description": "Entidad enigmática vinculada a la Necromancia cuya verdadera identidad es un misterio."
     },
     {
         "name": "The-Beast",
         "folder": "Personajes",
-        "image": "Imagenes/Personajes/The-Beast.png"
+        "image": "Imagenes/Personajes/The-Beast.png",
+        "description": "La representación física del hambre y la furia que habita en el interior de cada vástago."
     },
     {
         "name": "Theo Bell",
         "folder": "Personajes",
-        "image": "Imagenes/Personajes/Theo Bell.png"
+        "image": "Imagenes/Personajes/Theo Bell.png",
+        "description": "Arconte Brujah. Un guerrero incansable que defiende los pilares de la Camarilla con determinación."
     },
     {
         "name": "Tupdog",
         "folder": "Personajes",
-        "image": "Imagenes/Personajes/Tupdog.png"
+        "image": "Imagenes/Personajes/Tupdog.png",
+        "description": "Gárgola creada por los Tremere para servir como fuerza de choque imparable."
     },
     {
         "name": "Zebulon",
         "folder": "Personajes",
-        "image": "Imagenes/Personajes/Zebulon.png"
+        "image": "Imagenes/Personajes/Zebulon.png",
+        "description": "Eremita Malkavian que posee fragmentos de verdades olvidadas por el tiempo."
     }
 ]

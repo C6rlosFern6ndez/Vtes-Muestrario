@@ -1,39 +1,60 @@
 :root {
-    /* Paleta VTES: Sangre y Oscuridad */
-    --primary-color: #4a0404;    /* Rojo Sangre profundo */
-    --accent-color: #8b0000;     /* Carmesí brillante */
-    --bg-color: #0f0f0f;         /* Negro Obsidiana */
-    --card-bg: #1a1a1a;          /* Gris muy oscuro para el cuerpo de la carta */
-    --text-color: #e0d8c0;       /* Pergamino claro para lectura */
-    --border-gold: #7d6b47;      /* Dorado viejo/Bronce */
+    /* Paleta temática VTES */
+    --primary-color: #4a0404;    /* Rojo sangre oscuro */
+    --accent-color: #8b0000;     /* Carmesí */
+    --bg-color: #0f0f0f;         /* Negro obsidiana */
+    --card-bg: #1a1a1a;          /* Gris oscuro */
+    --text-color: #e0d8c0;       /* Pergamino */
+    --border-gold: #7d6b47;      /* Dorado envejecido */
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    font-family: 'Georgia', serif; /* Fuente con serifa para estilo gótico */
+    font-family: 'Georgia', serif;
     background-color: var(--bg-color);
     color: var(--text-color);
+    line-height: 1.6;
     background-image: radial-gradient(circle, #1a1a1a 0%, #000000 100%);
 }
 
 header {
     background-color: #000;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
     border-bottom: 2px solid var(--primary-color);
-    box-shadow: 0 4px 20px rgba(139, 0, 0, 0.3);
+    box-shadow: 0 4px 20px rgba(139, 0, 0, 0.4);
 }
 
 h1 {
+    margin-bottom: 1rem;
     text-transform: uppercase;
     letter-spacing: 3px;
     color: var(--accent-color);
-    text-shadow: 2px 2px 4px #000;
 }
 
-/* Inputs con estilo "Dark" */
+.search-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
 input[type="text"], select {
-    background-color: #222;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
     border: 1px solid var(--border-gold);
+    font-size: 1rem;
+    background-color: #222;
     color: var(--text-color);
-    transition: all 0.3s ease;
 }
 
 input[type="text"]:focus, select:focus {
@@ -42,30 +63,153 @@ input[type="text"]:focus, select:focus {
     box-shadow: 0 0 8px var(--accent-color);
 }
 
-/* Tarjetas estilo VTES */
+input[type="text"] {
+    width: 300px;
+}
+
+main {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* --- CARTAS --- */
 .card {
     background-color: var(--card-bg);
+    border-radius: 10px;
+    overflow: hidden;
     border: 1px solid var(--border-gold);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    transition: transform 0.3s ease, border-color 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
 }
 
 .card:hover {
+    transform: translateY(-8px);
     border-color: var(--accent-color);
-    transform: translateY(-8px) scale(1.02);
+}
+
+.card-image-container {
+    position: relative;
+    padding-top: 140%; /* Relación de aspecto fija para evitar saltos */
+    background-color: #000;
+}
+
+.card img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Asegura que la imagen llene el espacio sin deformarse */
+}
+
+.card-info {
+    padding: 1rem;
+    border-top: 1px solid #333;
 }
 
 .card-name {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
     color: var(--accent-color);
-    font-family: 'Crimson Text', serif;
-    border-bottom: 1px solid #333;
-    padding-bottom: 5px;
 }
 
 .card-folder {
-    background: var(--primary-color);
+    font-size: 0.8rem;
     color: #fff;
-    border: 1px solid var(--border-gold);
-    font-weight: bold;
+    background: var(--primary-color);
+    padding: 2px 10px;
+    border-radius: 4px;
+    display: inline-block;
     text-transform: uppercase;
-    font-size: 0.7rem;
+    border: 1px solid var(--border-gold);
+}
+
+/* --- MODAL (FICHA) --- */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 2000;
+    left: 0; top: 0; width: 100%; height: 100%;
+    background-color: rgba(0,0,0,0.95);
+    overflow-y: auto;
+}
+
+.modal-content {
+    background: var(--card-bg);
+    margin: 5% auto;
+    padding: 30px;
+    border: 2px solid var(--border-gold);
+    width: 90%;
+    max-width: 850px;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0 0 30px var(--primary-color);
+}
+
+.modal-body {
+    display: flex;
+    gap: 30px;
+}
+
+.modal-image img {
+    width: 300px; /* Tamaño fijo para la ficha */
+    border: 1px solid var(--border-gold);
+    display: block;
+}
+
+.modal-info {
+    text-align: left;
+    flex: 1;
+}
+
+.modal-info h2 {
+    color: var(--accent-color);
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+.bio-container {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    color: var(--text-color);
+    white-space: pre-wrap; /* Mantiene saltos de línea del JSON */
+}
+
+.close-modal {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 2.5rem;
+    color: var(--accent-color);
+    cursor: pointer;
+}
+
+/* --- RESPONSIVE --- */
+@media (max-width: 768px) {
+    .modal-body {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .modal-image img {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .search-container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    input[type="text"] {
+        width: 100%;
+    }
 }

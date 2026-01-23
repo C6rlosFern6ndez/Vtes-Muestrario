@@ -3,25 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Muestrario de Cartas</title>
+    <title>VTES - Muestrario de Sangre</title>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <!-- <h1>Muestrario de Cartas</h1> -->
+        <h1>Vampire: The Eternal Struggle</h1>
         <div class="search-container">
-            <input type="text" id="searchInput" placeholder="Buscar por nombre o carpeta...">
+            <input type="text" id="searchInput" placeholder="Buscar vástago o clan...">
             <select id="folderFilter">
-                <option value="">Todas las carpetas</option>
-                <!-- Las opciones se llenarán dinámicamente -->
-            </select>
+                <option value="">Todas las categorías</option>
+                </select>
         </div>
     </header>
 
     <main id="cardContainer">
-        <!-- Las cartas se cargarán aquí -->
-        <div class="loader">Cargando cartas...</div>
+        <div class="loader">Invocando a los antiguos...</div>
     </main>
+
+    <div id="cardModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img id="modalImg" src="" alt="Carta de VTES">
+                </div>
+                
+                <div class="modal-info">
+                    <h2 id="modalName">Nombre del Personaje</h2>
+                    <p id="modalFolder" class="card-folder">Categoría</p>
+                    <hr style="border: 0; border-top: 1px solid var(--border-gold); margin: 1.5rem 0;">
+                    <div class="bio-container">
+                        <p id="modalDescription">Historia del personaje...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="js/script.js"></script>
 </body>
