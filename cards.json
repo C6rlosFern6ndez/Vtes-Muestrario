@@ -1,5 +1,19 @@
 [
     {
+        "name": "Kuyen",
+        "folder": "Gangrel",
+        "clan": "Gangrel",
+        "image": "Imagenes/Personajes/Gangrel/Kuyen.png",
+        "description": ""
+    },
+    {
+        "name": "Massimiliano",
+        "folder": "Gangrel",
+        "clan": "Gangrel",
+        "image": "Imagenes/Personajes/Gangrel/Massimiliano.png",
+        "description": ""
+    },
+    {
         "name": "Izhim abd Azrael",
         "folder": "Banu-Haqim",
         "clan": "Banu-Haqim",
