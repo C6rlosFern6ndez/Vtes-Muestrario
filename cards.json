@@ -1,5 +1,12 @@
 [
     {
+        "name": "Izhim abd Azrael",
+        "folder": "Banu-Haqim",
+        "clan": "Banu-Haqim",
+        "image": "Imagenes/Personajes/Banu-Haqim/Izhim abd Azrael.png",
+        "description": ""
+    },
+    {
         "name": "Herald Of Topheth",
         "folder": "Aliados",
         "clan": null,
