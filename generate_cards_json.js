@@ -31,15 +31,30 @@ function scanDirectory(currentDir) {
             const pathParts = webPath.split('/');
             const folderName = pathParts.length > 2 ? pathParts[pathParts.length - 2] : "General";
 
+            // Extraemos el clan si está dentro de la carpeta Personajes
+            // Estructura: Imagenes/Personajes/Clan/Archivo.png
+            let clan = null;
+            if (pathParts.includes('Personajes')) {
+                const personajesIndex = pathParts.indexOf('Personajes');
+                // Si hay algo después de 'Personajes' y no es el archivo en sí
+                if (pathParts.length > personajesIndex + 2) {
+                    clan = pathParts[personajesIndex + 1];
+                }
+            }
+
             // Limpieza del nombre del archivo (quitamos extensión y formateamos)
             const fileName = path.parse(item.name).name;
             const formattedName = fileName
                 .replace(/[-_]/g, ' ')
                 .replace(/\b\w/g, char => char.toUpperCase());
 
+            // Añadir log descriptivo en español
+            console.log(`Indexando: ${formattedName} [Categoría: ${folderName}${clan ? `, Clan: ${clan}` : ''}]`);
+
             cardsData.push({
                 name: formattedName,
                 folder: folderName,
+                clan: clan,
                 image: webPath
             });
         }

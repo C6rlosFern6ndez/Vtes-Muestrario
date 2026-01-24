@@ -2,211 +2,217 @@
     {
         "name": "Herald Of Topheth",
         "folder": "Aliados",
-        "image": "Imagenes/Aliados/Herald of Topheth.png",
-        "description": "Los Herald of Topheth son una facción o línea de sangre extremadamente oscura dentro del Sabbat, vinculada a los Baali (vampiros infernalistas) o a los Tremere antitribu que han caído en el abismo. El Concepto: Son mensajeros del infierno. Su nombre proviene de Tofet, un lugar de sacrificio cerca de Jerusalén donde se quemaban niños en honor a Moloch. Su Función: Actúan como heraldos de la Gehenna, pero desde una perspectiva puramente destructiva y nihilista. Creen que su deber es preparar el mundo para el despertar de los Hijos del Abismo.Poderes: Utilizan la Taumaturgia Oscura y la Presencia para infundir un terror paralizante. No solo matan el cuerpo, sino que buscan fracturar la mente de sus víctimas antes de que mueran."
+        "clan": null,
+        "image": "Imagenes/Aliados/Herald of Topheth.png"
     },
     {
         "name": "Nephandus",
         "folder": "Aliados",
-        "image": "Imagenes/Aliados/Nephandus.png",
-        "description": "Un Nephandus representa la herida abierta por la que el universo se desangra hacia el vacío, un ser que ha renunciado a su humanidad y a la chispa divina de su alma a través del agónico rito del Calvario. Al cruzar ese umbral, su Avatar se invierte de forma irreversible, convirtiéndose en un faro de entropía que no busca el poder para reinar, sino para desmantelar la existencia pieza por pieza. Su mera presencia actúa como un veneno metafísico que pudre la realidad a su alrededor, agriando las emociones de los vivos y corrompiendo la materia con una facilidad clínica y aterradora. Ya sea bajo la apariencia de un sofisticado ejecutivo que manipula mercados para causar hambrunas o como un ermitaño que susurra secretos prohibidos en la oscuridad, el Nephandus es el arquitecto del olvido absoluto, un traidor a la creación que sirve a amos infernales o a la nada misma con la única ambición de que, al final, el silencio lo devore todo."
+        "clan": null,
+        "image": "Imagenes/Aliados/Nephandus.png"
     },
     {
         "name": "Nephandus2",
         "folder": "Aliados",
-        "image": "Imagenes/Aliados/Nephandus2.png",
-        "description": "Un Nephandus representa la herida abierta por la que el universo se desangra hacia el vacío, un ser que ha renunciado a su humanidad y a la chispa divina de su alma a través del agónico rito del Calvario. Al cruzar ese umbral, su Avatar se invierte de forma irreversible, convirtiéndose en un faro de entropía que no busca el poder para reinar, sino para desmantelar la existencia pieza por pieza. Su mera presencia actúa como un veneno metafísico que pudre la realidad a su alrededor, agriando las emociones de los vivos y corrompiendo la materia con una facilidad clínica y aterradora. Ya sea bajo la apariencia de un sofisticado ejecutivo que manipula mercados para causar hambrunas o como un ermitaño que susurra secretos prohibidos en la oscuridad, el Nephandus es el arquitecto del olvido absoluto, un traidor a la creación que sirve a amos infernales o a la nada misma con la única ambición de que, al final, el silencio lo devore todo."
+        "clan": null,
+        "image": "Imagenes/Aliados/Nephandus2.png"
     },
     {
         "name": "Nephandus3",
         "folder": "Aliados",
-        "image": "Imagenes/Aliados/Nephandus3.png",
-        "description": "Un Nephandus representa la herida abierta por la que el universo se desangra hacia el vacío, un ser que ha renunciado a su humanidad y a la chispa divina de su alma a través del agónico rito del Calvario. Al cruzar ese umbral, su Avatar se invierte de forma irreversible, convirtiéndose en un faro de entropía que no busca el poder para reinar, sino para desmantelar la existencia pieza por pieza. Su mera presencia actúa como un veneno metafísico que pudre la realidad a su alrededor, agriando las emociones de los vivos y corrompiendo la materia con una facilidad clínica y aterradora. Ya sea bajo la apariencia de un sofisticado ejecutivo que manipula mercados para causar hambrunas o como un ermitaño que susurra secretos prohibidos en la oscuridad, el Nephandus es el arquitecto del olvido absoluto, un traidor a la creación que sirve a amos infernales o a la nada misma con la única ambición de que, al final, el silencio lo devore todo."
+        "clan": null,
+        "image": "Imagenes/Aliados/Nephandus3.png"
     },
     {
         "name": "Nephandus4",
         "folder": "Aliados",
-        "image": "Imagenes/Aliados/Nephandus4.png",
-        "description": "Protector místico encargado de la defensa de los refugios durante el día."
+        "clan": null,
+        "image": "Imagenes/Aliados/Nephandus4.png"
+    },
+    {
+        "name": "Disarm",
+        "folder": "Combat",
+        "clan": null,
+        "image": "Imagenes/Combat/Disarm.png"
     },
     {
         "name": "Immortal",
         "folder": "Combat",
-        "image": "Imagenes/Combat/Immortal.png",
-        "description": "Maniobra de combate que permite al vástago resistir heridas fatales, manteniéndose en la lucha cuando otros caerían."
+        "clan": null,
+        "image": "Imagenes/Combat/Immortal.png"
     },
     {
         "name": "Immortal3",
         "folder": "Combat",
-        "image": "Imagenes/Combat/Immortal3.png",
-        "description": "Variante avanzada de resistencia física extrema frente a armas de fuego."
-    },
-    {
-        "name": "Kalyani, Agent of Doom",
-        "folder": "Personajes",
-        "image": "Imagenes/Personajes/Kalyani, Agent of Doom.png",
-        "description": ""
+        "clan": null,
+        "image": "Imagenes/Combat/Immortal3.png"
     },
     {
         "name": "Majesty",
         "folder": "Combat",
-        "image": "Imagenes/Combat/Majesty.png",
-        "description": "Disciplina de Presencia. El vampiro manifiesta una autoridad tan abrumadora que el oponente es incapaz de continuar el ataque."
-    },
-    {
-        "name": "Aabbt Kindred",
-        "folder": "Personajes",
-        "image": "Imagenes/Personajes/Aabbt Kindred.png",
-        "description": "Los Aabbt Kindred son una aberración única nacida de la voluntad de Nefertiti, quien mediante ritos de hechicería setita y el poder de su sangre antigua logró romper las leyes de la naturaleza al transferir el Abrazo a simples cobras africanas. Estas criaturas, que alguna vez fueron solo reptiles, han pasado décadas bajo el dominio de su creadora, transformándose en guardianes inteligentes que han aprendido a forzar su anatomía mediante la disciplina de Serpentis para adoptar formas humanoides inquietantes y poderosas. Aunque su intelecto ha crecido bajo la tutela de la vitae, siguen siendo seres impulsados por instintos primordiales que cazan roedores por hábito y huyen aterrorizados ante la presencia del fuego. Poseen un veneno letal que aniquila a los mortales al instante y es capaz de hundir incluso al vampiro más antiguo en un letargo profundo si no es expulsado a tiempo. Atados de por vida a la sangre de Nefertiti para asegurar su lealtad y supervivencia ante la luz del sol, estos quince engendros nocturnos representan el éxito de un experimento prohibido que desdibuja la frontera entre la bestia y el condenado."
-    },
-    {
-        "name": "Alexandra",
-        "folder": "Personajes",
-        "image": "Imagenes/Personajes/Alexandra.png",
-        "description": "Alexandra encarna la cúspide de la autoridad y la sofisticación dentro de la Camarilla, ocupando un asiento en el legendario Círculo Interno como la representante definitiva del Clan Toreador. Lejos de las pasiones efímeras de los neonatos o las intrigas menores de los Príncipes, ella es una de las mentes arquitectas que sostienen la estructura de la Mascarada a nivel global, decidiendo el destino de linajes enteros con un susurro o un gesto imperceptible. Su belleza no es un simple adorno, sino un arma forjada y preservada a lo largo de siglos de diplomacia letal, ocultando una voluntad de hierro que ha sobrevivido a revueltas, inquisiciones y el paso implacable del tiempo. Como guardiana de los principios fundacionales de la Estirpe, Alexandra observa el mundo desde una posición de indiferencia divina, asegurándose de que el arte del poder y la elegancia de la tradición sigan siendo los pilares sobre los que se asienta el imperio de las sombras que ella misma ayuda a dirigir con una precisión quirúrgica."
-    },
-    {
-        "name": "Alexandra2",
-        "folder": "Personajes",
-        "image": "Imagenes/Personajes/Alexandra2.png",
-        "description": "Alexandra encarna la cúspide de la autoridad y la sofisticación dentro de la Camarilla, ocupando un asiento en el legendario Círculo Interno como la representante definitiva del Clan Toreador. Lejos de las pasiones efímeras de los neonatos o las intrigas menores de los Príncipes, ella es una de las mentes arquitectas que sostienen la estructura de la Mascarada a nivel global, decidiendo el destino de linajes enteros con un susurro o un gesto imperceptible. Su belleza no es un simple adorno, sino un arma forjada y preservada a lo largo de siglos de diplomacia letal, ocultando una voluntad de hierro que ha sobrevivido a revueltas, inquisiciones y el paso implacable del tiempo. Como guardiana de los principios fundacionales de la Estirpe, Alexandra observa el mundo desde una posición de indiferencia divina, asegurándose de que el arte del poder y la elegancia de la tradición sigan siendo los pilares sobre los que se asienta el imperio de las sombras que ella misma ayuda a dirigir con una precisión quirúrgica."
-    },
-    {
-        "name": "Algirdas, The Solar Prophet",
-        "folder": "Personajes",
-        "image": "Imagenes/Personajes/Algirdas, The Solar Prophet.png",
-        "description": ""
-    },
-    {
-        "name": "Anarch Convert",
-        "folder": "Personajes",
-        "image": "Imagenes/Personajes/Anarch Convert.png",
-        "description": "Un vástago que ha decidido abandonar las estructuras de la Camarilla para unirse a la causa Anarquista."
-    },
-    {
-        "name": "Anatole",
-        "folder": "Personajes",
-        "image": "Imagenes/Personajes/Anatole.png",
-        "description": "Anatole es el profeta errante por excelencia del Clan Malkavian, una figura cuya locura trasciende el simple trastorno mental para convertirse en un canal directo de visiones apocalípticas y verdades divinas que pocos pueden soportar. Como childe de Pierre l'Imbécile, este influyente vampiro de sexta generación ha dedicado su existencia inmortal a descifrar los secretos de la Gehenna y el Libro de Nod, bajo la firme creencia de que su voz no es suya, sino el eco de una voluntad superior que lo guía a través de las sombras de la historia. A menudo acompañado por la Lasombra Lucita de Aragón y el erudito Gangrel Beckett, Anatole recorre el mundo no como un conquistador, sino como un mensajero del destino final de la Estirpe, cuya presencia inquieta tanto a la Camarilla como al Sabbat por su capacidad de ver más allá del velo de la Mascarada. Su psique es un mosaico de almas y voces, llegando incluso a hablar con el tono de entidades demoníacas o víctimas sacrificadas como Octavio, lo que refleja su naturaleza como un receptáculo de conocimientos prohibidos. Fanático devoto de la Senda de Leopoldo, Anatole observa el declive de los vampiros con una mezcla de piedad y júbilo sombrío, convencido de que su martirio personal y su búsqueda de la iluminación son los únicos faros posibles ante la llegada inminente de las Noches Finales."
-    },
-    {
-        "name": "Anneke",
-        "folder": "Personajes",
-        "image": "Imagenes/Personajes/Anneke.png",
-        "description": "Anneke es una de las figuras más respetadas y antiguas dentro de la Camarilla, habiendo servido durante siglos como la Justicar del Clan Toreador, una posición que le otorga un poder casi absoluto sobre la justicia y la política de la secta a nivel mundial. Conocida por poseer una belleza serena y una elegancia que parece detenida en el tiempo, Anneke no es solo una mecenas de las artes, sino una estratega implacable que ha sobrevivido a innumerables purgas y conflictos internos gracias a su agudo instinto y a su capacidad para ver lo que otros ignoran. Se dice que su mirada es capaz de atravesar cualquier engaño, una habilidad que en la mitología de la Estirpe se conoce como el -Ojo del Águila-, permitiéndole vigilar sus dominios y detectar amenazas mucho antes de que se manifiesten. A menudo se la asocia en las crónicas de poder con otras eminencias como Alexandra y Anson, formando un triunvirato de influencia Toreador que dicta las tendencias y las leyes de las noches eternas. A pesar de su apariencia sofisticada y su amor por los entornos refinados, Anneke es una guerrera de la diplomacia letal que no duda en usar toda la maquinaria de la Camarilla para aplastar a los anarquistas o a cualquier elemento que amenace la estabilidad de la Mascarada, recordándoles a todos que tras la máscara de la musa se esconde el corazón de una de las depredadoras más eficaces de la historia vampírica."
-    },
-    {
-        "name": "Anson",
-        "folder": "Personajes",
-        "image": "Imagenes/Personajes/Anson.png",
-        "description": "Maestro del Elíseo conocido por su capacidad de potenciar las acciones de sus aliados mediante su Presencia."
-    },
-    {
-        "name": "Antonio D'Erlette",
-        "folder": "Personajes",
-        "image": "Imagenes/Personajes/Antonio d'Erlette.png",
-        "description": "Antonio d'Erlette se alza como el arquitecto intelectual del mayor cisma en la historia de la magia de sangre, un hombre que prefirió la condenación absoluta antes que la servidumbre burocrática de la Pirámide. Como antiguo miembro del Consejo de los Siete de los Tremere, utilizó su genio estratégico para orquestar la huida hacia el Sabbat, fundando la Casa d'Erlette y reclamando una libertad mística que despojaba a la taumaturgia de toda ética y límite. Su ambición, sin embargo, lo llevó mucho más allá de la simple rebelión política: fue él quien estrechó la mano prohibida de los Nephandi, sellando pactos con estos arquitectos del olvido para infundir en su linaje una mancha de entropía y vacío. Al abrazar las Qlippoth y la voluntad de deshacer la creación, Antonio transformó su poder en una afrenta metafísica contra el universo, mezclando la sangre de Caín con secretos que fracturaron la realidad misma y permitieron que la nada se filtrara en sus rituales. Este camino de soberbia y sombras encontró su fin absoluto en 1998 durante la Noche del Corazón Rojo, cuando un ritual masivo de sus antiguos hermanos en Viena extinguió su vida y la de todos los Tremere antitribu en un instante, dejando su legado como el amargo recordatorio de un mago que, en su afán por no servir a nadie, terminó entregando su esencia y la de sus seguidores a la nada misma."
-    },
-    {
-        "name": "Basilia",
-        "folder": "Personajes",
-        "image": "Imagenes/Personajes/Basilia.png",
-        "description": "Basilia representa la cara más salvaje y primitiva que la Camarilla está dispuesta a tolerar, una Gangrel que ha decidido que el orden de la Torre es el mejor territorio para asegurar su supervivencia y la de su linaje. A diferencia de sus hermanos de clan que vagan por los desiertos o se pierden en el Sabbat, ella se mueve con una gracia letal por las periferias de los dominios urbanos, actuando como una centinela que detecta las amenazas mucho antes de que crucen los límites de la ciudad. Su dominio de la Protean le permite fundirse con la piedra y la tierra, convirtiéndose en una parte invisible del entorno hasta que llega el momento de atacar con una ferocidad que deja poco margen para la defensa. A pesar de su apariencia de cazadora solitaria, Basilia posee una voluntad forjada en la Fortaleza más pura, capaz de resistir castigos que aniquilarían a vampiros de mayor rango social, y utiliza su Animalismo no solo para comandar a las bestias de la noche, sino para mantener un control absoluto sobre sus propios instintos en los salones de la corte. No busca el protagonismo de los Toreador ni la influencia de los Ventrue; su lealtad no nace de la ideología, sino de un pragmatismo depredador que entiende que, en un mundo que se encamina a la Gehenna, es mejor ser el sabueso que guarda la puerta que la presa que corre por el campo. Su presencia en la jerarquía de la Estirpe es un recordatorio constante de que, incluso en el corazón de la civilización vampírica, el latido de la Bestia sigue siendo el motor que garantiza la permanencia de la Mascarada."
-    },
-    {
-        "name": "Bela",
-        "folder": "Personajes",
-        "image": "Imagenes/Personajes/Bela.png",
-        "description": "Bela es una de las figuras más surrealistas y melancólicas que deambulan por las noches de Los Ángeles, un Malkavian atrapado para siempre en la imagen del icónico actor Bela Lugosi. Tras un Abrazo traumático a manos de un sire que se hacía llamar -Conde Rigatoni-, la cordura de Bela se fragmentó de tal modo que quedó convencido de ser el mismísimo Conde Drácula, el Rey de todos los Vampiros. Con una capa larga y un marcado acento húngaro fingido, recorre los antiguos sets de filmación abandonados de Hollywood, sumido en una nostalgia por los -buenos viejos tiempos- que su mente apenas puede procesar. A diferencia de otros vástagos que ocultan su naturaleza, Bela se presenta con una arrogancia aristocrática ante cualquiera que encuentre, exigiendo respeto y sumisión de quienes considera su -prole-. Aunque la mayoría de los vampiros cuerdos lo ven como un bufón o una reliquia patética, en Los Ángeles se le ha permitido existir como una especie de símbolo local de la ciudad; en cualquier otro lugar, su desprecio por la Mascarada le habría valido la muerte definitiva hace décadas. Sin embargo, bajo su delirio de grandeza reside una sorprendente capacidad de supervivencia, pues su locura le ha permitido desarrollar habilidades que imitan los poderes del Drácula cinematográfico, convirtiéndolo en un aliado tan impredecible como valioso si alguien logra convencerlo de que su -reino- está en peligro."
+        "clan": null,
+        "image": "Imagenes/Combat/Majesty.png"
     },
     {
         "name": "Cibeles",
-        "folder": "Personajes",
-        "image": "Imagenes/Personajes/Cibeles.png",
-        "description": "Cybele es una entidad de maldad antigua y refinada, una de las figuras más elevadas dentro de la jerarquía de los Baali que ha sobrevivido a milenios de persecución por parte de todas las demás estirpes. No es simplemente una vampira, sino una arquitecta de la caída moral, una matrona oscura que observa desde su trono de sombras cómo los imperios y las sectas se desmoronan bajo el peso de su propia decadencia. Su dominio sobre el Daimonion le permite susurrar a los demonios del abismo, mientras que su maestría en la Taumaturgia y la Presencia la convierte en una soberana absoluta capaz de doblegar la voluntad de Príncipes y Arzobispos por igual. A diferencia de otros infernalistas que buscan el caos bruto, Cybele opera con una paciencia divina y una sofisticación que hiela la sangre; ella no necesita desenvainar garras para destruir, pues le basta con mover los hilos de la ambición y el deseo para que sus enemigos se destruyan a sí mismos. Como -Madre de las Tinieblas-, su presencia en el campo de batalla de la noche es un presagio de la Gehenna, una fuerza que acelera el fin de los tiempos mientras cosecha las almas de aquellos lo suficientemente necios como para creer que podían negociar con el vacío. En el gran juego de la eternidad, Cybele es la mano que reparte las cartas de la condenación, asegurándose de que, cuando el mundo finalmente arda, ella sea quien sostenga la última antorcha."
-    },
-    {
-        "name": "Fancois-Villon",
-        "folder": "Personajes",
-        "image": "Imagenes/Personajes/Fancois-Villon.png",
-        "description": "François Villon es la personificación del ideal Toreador: una mezcla perfecta de genio artístico, carisma magnético y una crueldad política que ha mantenido a París bajo su control durante siglos. Aunque en vida fue un poeta vagabundo y un criminal de los bajos fondos, tras su Abrazo transformó la -Ciudad de la Luz- en su lienzo personal, gobernando desde las sombras del Louvre con una autoridad que ni la Revolución Francesa ni las guerras mundiales han logrado quebrar. Para Villon, el poder es la más alta de las bellas artes; su palabra es ley absoluta en temas de cultura y estética, y un desplante en su corte puede ser tan letal como una estaca en el corazón. Bajo su fachada de dandy vanidoso y amante de la moda, se esconde uno de los estrategas más brillantes de la Camarilla. Es famoso por su capacidad de desaparecer justo antes de que el desastre golpee —ya sean revueltas anarquistas o la Segunda Inquisición— solo para resurgir meses o años después, cuando sus enemigos se han debilitado, reclamando su trono con una sonrisa impecable y las manos limpias de sangre. Se rumorea que sus vínculos con el Círculo Interno son tan profundos que incluso los Justicaris actúan con cautela en su presencia. Villon no solo gobierna París; él es París, una figura eterna que observa el paso de los siglos con la melancolía de un poeta y la ambición de un emperador que se niega a dejar que el sol vuelva a salir sobre su dominio."
+        "folder": "Baali",
+        "clan": "Baali",
+        "image": "Imagenes/Personajes/Baali/Cibeles.png"
     },
     {
         "name": "Giotto Verducci",
-        "folder": "Personajes",
-        "image": "Imagenes/Personajes/Giotto Verducci.png",
-        "description": "Giotto Verducci es un ancilla del clan Baali, abrazado en el año 874 d.C. por su sire, Antonio DeFigio. En la jerarquía del clan, Giotto es conocido por ser el líder de la Abadía del Monte Sión, una célula o culto Baali que opera bajo la fachada de una orden religiosa, utilizando la estructura de la fe para ocultar ritos infernalistas y la búsqueda de conocimientos prohibidos. A diferencia de los líderes más antiguos y monstruosos del clan, Giotto representa una forma de malicia más sutil y administrativa. Es un maestro de la manipulación y la logística, capaz de coordinar los esfuerzos de su prole y aliados para infiltrarse en las instituciones humanas y vampíricas. En el juego de rol, se le asocia con la capacidad de corromper desde dentro, utilizando su Ofuscación para moverse sin ser detectado y su dominio de Daimoinon para invocar los horrores que su clan sirve."
-    },
-    {
-        "name": "Goratrix",
-        "folder": "Personajes",
-        "image": "Imagenes/Personajes/Goratrix.png",
-        "description": "Antitribu Tremere y maestro de la taumaturgia oscura. Su conocimiento prohibido es su mayor arma."
-    },
-    {
-        "name": "Hekla Bonecrusher Jonasdottir",
-        "folder": "Personajes",
-        "image": "Imagenes/Personajes/Hekla Bonecrusher Jonasdottir.png",
-        "description": ""
+        "folder": "Baali",
+        "clan": "Baali",
+        "image": "Imagenes/Personajes/Baali/Giotto Verducci.png"
     },
     {
         "name": "Horde",
-        "folder": "Personajes",
-        "image": "Imagenes/Personajes/Horde.png",
-        "description": "Una masa de criaturas menores que actúan bajo una sola voluntad colectiva."
+        "folder": "Baali",
+        "clan": "Baali",
+        "image": "Imagenes/Personajes/Baali/Horde.png"
     },
     {
-        "name": "Maraina Gilbert",
-        "folder": "Personajes",
-        "image": "Imagenes/Personajes/Maraina Gilbert.jpeg",
-        "description": "Investigadora del clan Tremere dedicada al estudio de los linajes perdidos."
+        "name": "Algirdas, The Solar Prophet",
+        "folder": "Banu-Haqim",
+        "clan": "Banu-Haqim",
+        "image": "Imagenes/Personajes/Banu-Haqim/Algirdas, The Solar Prophet.png"
     },
     {
-        "name": "Moncada",
-        "folder": "Personajes",
-        "image": "Imagenes/Personajes/Moncada.png",
-        "description": "Cardenal Lasombra y maestro de la Obtenebración. Su fe en las sombras es absoluta."
+        "name": "Hekla Bonecrusher Jonasdottir",
+        "folder": "Banu-Haqim",
+        "clan": "Banu-Haqim",
+        "image": "Imagenes/Personajes/Banu-Haqim/Hekla Bonecrusher Jonasdottir.png"
     },
     {
-        "name": "Saulot, The Wanderer",
-        "folder": "Personajes",
-        "image": "Imagenes/Personajes/Saulot, The Wanderer.png",
-        "description": "Fundador del clan Salubri. Su búsqueda de la Golconda lo ha llevado por senderos espirituales prohibidos."
-    },
-    {
-        "name": "The Capuchin",
-        "folder": "Personajes",
-        "image": "Imagenes/Personajes/The Capuchin.png",
-        "description": "Entidad enigmática vinculada a la Necromancia cuya verdadera identidad es un misterio."
-    },
-    {
-        "name": "The-Beast",
-        "folder": "Personajes",
-        "image": "Imagenes/Personajes/The-Beast.png",
-        "description": "La representación física del hambre y la furia que habita en el interior de cada vástago."
+        "name": "Kalyani, Agent Of Doom",
+        "folder": "Banu-Haqim",
+        "clan": "Banu-Haqim",
+        "image": "Imagenes/Personajes/Banu-Haqim/Kalyani, Agent of Doom.png"
     },
     {
         "name": "Theo Bell",
-        "folder": "Personajes",
-        "image": "Imagenes/Personajes/Theo Bell.png",
-        "description": "Arconte Brujah. Un guerrero incansable que defiende los pilares de la Camarilla con determinación."
+        "folder": "Brujah",
+        "clan": "Brujah",
+        "image": "Imagenes/Personajes/Brujah/Theo Bell.png"
+    },
+    {
+        "name": "Anarch Convert",
+        "folder": "Caitiff",
+        "clan": "Caitiff",
+        "image": "Imagenes/Personajes/Caitiff/Anarch Convert.png"
+    },
+    {
+        "name": "Basilia",
+        "folder": "Gangrel",
+        "clan": "Gangrel",
+        "image": "Imagenes/Personajes/Gangrel/Basilia.png"
     },
     {
         "name": "Tupdog",
-        "folder": "Personajes",
-        "image": "Imagenes/Personajes/Tupdog.png",
-        "description": "Gárgola creada por los Tremere para servir como fuerza de choque imparable."
+        "folder": "Gargola",
+        "clan": "Gargola",
+        "image": "Imagenes/Personajes/Gargola/Tupdog.png"
+    },
+    {
+        "name": "The Capuchin",
+        "folder": "Heraldo-de-las-calaveras",
+        "clan": "Heraldo-de-las-calaveras",
+        "image": "Imagenes/Personajes/Heraldo-de-las-calaveras/The Capuchin.png"
+    },
+    {
+        "name": "Moncada",
+        "folder": "Lasombra",
+        "clan": "Lasombra",
+        "image": "Imagenes/Personajes/Lasombra/Moncada.png"
+    },
+    {
+        "name": "Anatole",
+        "folder": "Malkavian",
+        "clan": "Malkavian",
+        "image": "Imagenes/Personajes/Malkavian/Anatole.png"
+    },
+    {
+        "name": "Bela",
+        "folder": "Malkavian",
+        "clan": "Malkavian",
+        "image": "Imagenes/Personajes/Malkavian/Bela.png"
     },
     {
         "name": "Zebulon",
-        "folder": "Personajes",
-        "image": "Imagenes/Personajes/Zebulon.png",
-        "description": "Eremita Malkavian que posee fragmentos de verdades olvidadas por el tiempo."
+        "folder": "Malkavian",
+        "clan": "Malkavian",
+        "image": "Imagenes/Personajes/Malkavian/Zebulon.png"
     },
     {
-        "name": "Zebulon",
-        "folder": "Personajes",
-        "image": "Imagenes/Personajes/Zebulon2.png",
-        "description": "Eremita Malkavian que posee fragmentos de verdades olvidadas por el tiempo."
+        "name": "Zebulon2",
+        "folder": "Malkavian",
+        "clan": "Malkavian",
+        "image": "Imagenes/Personajes/Malkavian/Zebulon2.png"
+    },
+    {
+        "name": "Aabbt Kindred",
+        "folder": "Ministry",
+        "clan": "Ministry",
+        "image": "Imagenes/Personajes/Ministry/Aabbt Kindred.png"
+    },
+    {
+        "name": "The Beast",
+        "folder": "Nosferatu",
+        "clan": "Nosferatu",
+        "image": "Imagenes/Personajes/Nosferatu/The-Beast.png"
+    },
+    {
+        "name": "Saulot, The Wanderer",
+        "folder": "Salubri",
+        "clan": "Salubri",
+        "image": "Imagenes/Personajes/Salubri/Saulot, The Wanderer.png"
+    },
+    {
+        "name": "Alexandra",
+        "folder": "Toreador",
+        "clan": "Toreador",
+        "image": "Imagenes/Personajes/Toreador/Alexandra.png"
+    },
+    {
+        "name": "Alexandra2",
+        "folder": "Toreador",
+        "clan": "Toreador",
+        "image": "Imagenes/Personajes/Toreador/Alexandra2.png"
+    },
+    {
+        "name": "Anneke",
+        "folder": "Toreador",
+        "clan": "Toreador",
+        "image": "Imagenes/Personajes/Toreador/Anneke.png"
+    },
+    {
+        "name": "Anson",
+        "folder": "Toreador",
+        "clan": "Toreador",
+        "image": "Imagenes/Personajes/Toreador/Anson.png"
+    },
+    {
+        "name": "Fancois Villon",
+        "folder": "Toreador",
+        "clan": "Toreador",
+        "image": "Imagenes/Personajes/Toreador/Fancois-Villon.png"
+    },
+    {
+        "name": "Maraina Gilbert",
+        "folder": "Toreador",
+        "clan": "Toreador",
+        "image": "Imagenes/Personajes/Toreador/Maraina Gilbert.jpeg"
+    },
+    {
+        "name": "Antonio D'Erlette",
+        "folder": "Tremere",
+        "clan": "Tremere",
+        "image": "Imagenes/Personajes/Tremere/Antonio d'Erlette.png"
+    },
+    {
+        "name": "Goratrix",
+        "folder": "Tremere",
+        "clan": "Tremere",
+        "image": "Imagenes/Personajes/Tremere/Goratrix.png"
     }
 ]

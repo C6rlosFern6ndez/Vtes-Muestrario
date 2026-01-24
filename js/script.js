@@ -9,6 +9,7 @@ let cardsData = []; // Buffer para los datos del JSON
 const cardContainer = document.getElementById("cardContainer");
 const searchInput = document.getElementById("searchInput");
 const folderFilter = document.getElementById("folderFilter");
+const clanFilter = document.getElementById("clanFilter");
 const modal = document.getElementById("cardModal");
 const closeModalBtn = document.querySelector(".close-modal");
 
@@ -24,11 +25,13 @@ async function init() {
         cardsData = await response.json();
         
         populateFolderFilter();
+        populateClanFilter();
         renderCards(cardsData);
         
         // Listeners para filtros
         searchInput.addEventListener("input", filterCards);
         folderFilter.addEventListener("change", filterCards);
+        clanFilter.addEventListener("change", filterCards);
         
         // Listener para cerrar modal
         closeModalBtn.addEventListener("click", () => modal.style.display = "none");
@@ -54,6 +57,21 @@ function populateFolderFilter() {
         option.value = folder;
         option.textContent = folder;
         folderFilter.appendChild(option);
+    });
+}
+
+/**
+ * Genera las opciones del select basadas en los clanes existentes
+ */
+function populateClanFilter() {
+    clanFilter.innerHTML = "<option value=\"\">Todos los clanes</option>";
+    const clans = [...new Set(cardsData.map(card => card.clan))].filter(Boolean);
+    
+    clans.sort().forEach(clan => {
+        const option = document.createElement("option");
+        option.value = clan;
+        option.textContent = clan;
+        clanFilter.appendChild(option);
     });
 }
 
@@ -98,7 +116,7 @@ function renderCards(cards) {
 function openCharacterSheet(card) {
     document.getElementById("modalImg").src = card.image;
     document.getElementById("modalName").textContent = card.name;
-    document.getElementById("modalFolder").textContent = `Categoría: ${card.folder}`;
+    document.getElementById("modalFolder").textContent = `Categoría: ${card.folder}${card.clan ? ` | Clan: ${card.clan}` : ''}`;
     
     // Si no existe descripción en el JSON, muestra un texto por defecto
     const bio = card.description || "Los archivos de la Camarilla no contienen información sobre este sujeto.";
@@ -113,11 +131,18 @@ function openCharacterSheet(card) {
 function filterCards() {
     const searchTerm = searchInput.value.toLowerCase();
     const selectedFolder = folderFilter.value;
+    const selectedClan = clanFilter.value;
+
+    // Log descriptivo para depuración
+    console.log(`Filtrando por: "${searchTerm}", Categoría: "${selectedFolder}", Clan: "${selectedClan}"`);
 
     const filteredCards = cardsData.filter(card => {
-        const matchesSearch = card.name.toLowerCase().includes(searchTerm);
+        const matchesSearch = card.name.toLowerCase().includes(searchTerm) || 
+                             (card.clan && card.clan.toLowerCase().includes(searchTerm));
         const matchesFolder = selectedFolder === "" || card.folder === selectedFolder;
-        return matchesSearch && matchesFolder;
+        const matchesClan = selectedClan === "" || card.clan === selectedClan;
+        
+        return matchesSearch && matchesFolder && matchesClan;
     });
 
     renderCards(filteredCards);
