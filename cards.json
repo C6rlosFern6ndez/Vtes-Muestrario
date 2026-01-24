@@ -39,7 +39,7 @@
         "folder": "Aliados",
         "clan": null,
         "image": "Imagenes/Aliados/Nephandus4.png",
-        "description": "Protector místico encargado de la defensa de los refugios durante el día."
+        "description": "Un Nephandus representa la herida abierta por la que el universo se desangra hacia el vacío, un ser que ha renunciado a su humanidad y a la chispa divina de su alma a través del agónico rito del Calvario. Al cruzar ese umbral, su Avatar se invierte de forma irreversible, convirtiéndose en un faro de entropía que no busca el poder para reinar, sino para desmantelar la existencia pieza por pieza. Su mera presencia actúa como un veneno metafísico que pudre la realidad a su alrededor, agriando las emociones de los vivos y corrompiendo la materia con una facilidad clínica y aterradora. Ya sea bajo la apariencia de un sofisticado ejecutivo que manipula mercados para causar hambrunas o como un ermitaño que susurra secretos prohibidos en la oscuridad, el Nephandus es el arquitecto del olvido absoluto, un traidor a la creación que sirve a amos infernales o a la nada misma con la única ambición de que, al final, el silencio lo devore todo."
     },
     {
         "name": "Disarm",
@@ -81,14 +81,14 @@
         "folder": "Baali",
         "clan": "Baali",
         "image": "Imagenes/Personajes/Baali/Giotto Verducci.png",
-        "description": ""
+        "description": "La estancia no huele a azufre ni a sangre, sino a incienso caro y cera de abeja vieja. Giotto Verducci no necesita las garras ni los gritos de sus hermanos de clan; él prefiere el poder del susurro. Sentado en una silla de madera tallada que parece un trono modesto, Giotto observa al joven Vástago que tiene frente a él. Sus ojos, que han visto caer imperios desde el año 874 d.C., son pozos de una calma inquietante. Giotto viste el hábito negro de su orden con la naturalidad de quien ha olvidado lo que es llevar otra piel. No hay nada en su rostro que delate al monstruo; parece un erudito, un guía espiritual, un padre preocupado. Pero cuando habla, su voz tiene la vibración de una cuerda de violín a punto de romperse. Utiliza su Presencia no para abrumar, sino para seducir, haciendo que el pecado parezca no solo inevitable, sino lógico. Bajo su mando, la Abadía del Monte Sión no es un lugar de oración, sino una red de hilos invisibles que se extienden por toda la ciudad. Mientras susurra palabras de consuelo, sus dedos trazan símbolos invisibles en el aire, activando sutilmente su Daimoinon para leer las grietas en el alma de su invitado. Giotto sabe que no necesita destruir a sus enemigos con fuego infernal; le basta con encontrar el pequeño deseo oscuro que todos guardan y alimentarlo hasta que los consuma desde dentro. Él es el pastor que conduce a sus ovejas no al redil, sino al borde del abismo, con una sonrisa de absoluta benevolencia."
     },
     {
         "name": "Horde",
         "folder": "Baali",
         "clan": "Baali",
         "image": "Imagenes/Personajes/Baali/Horde.png",
-        "description": ""
+        "description": "La Horda no son individuos, sino una herramienta biológica. Son figuras pálidas y demacradas que emergen de los pozos de sacrificio como una marea silenciosa. No tienen ego ni miedo; se mueven con una mente de enjambre, trepando unos sobre otros para sepultar al enemigo bajo una masa de carne hambrienta. Para un Baali, un miembro de la Horda no es un hijo, es un escudo desechable o el combustible necesario para un ritual oscuro."
     },
     {
         "name": "Algirdas, The Solar Prophet",
@@ -144,7 +144,7 @@
         "folder": "Brujah",
         "clan": "Brujah",
         "image": "Imagenes/Personajes/Brujah/Theo Bell.png",
-        "description": ""
+        "description": "El aire en la Convención de Praga era espeso, cargado de la arrogancia de los antiguos. Theo Bell permanecía tras el Justicar Hardestadt, como siempre había hecho: una sombra silenciosa y letal. Pero mientras escuchaba las órdenes de sus amos, algo en su sangre —esa vieja furia Brujah que había reprimido durante siglos de servicio— finalmente hirvió. Miró la nuca de Hardestadt, el hombre que personificaba las cadenas de la Camarilla. Recordó cada Arconte caído y cada mentira protegida en nombre de la Tradición. Sin una palabra, sin un aviso, Theo desenfundó su escopeta recortada. El estruendo no solo rompió el silencio de la sala, sino el destino de la secta. Cuando el cuerpo del Justicar se deshizo en cenizas, Theo no huyó. Miró a los demás antiguos a los ojos y, con una calma aterradora, dejó claro que el perro de presa ya no tenía dueño. Esa noche, el Arconte murió para que el Anarquista pudiera nacer."
     },
     {
         "name": "Valeriya Zinovieva",
@@ -193,7 +193,7 @@
         "folder": "Malkavian",
         "clan": "Malkavian",
         "image": "Imagenes/Personajes/Malkavian/Anatole.png",
-        "description": ""
+        "description": "Anatole es el profeta errante por excelencia del Clan Malkavian, una figura cuya locura trasciende el simple trastorno mental para convertirse en un canal directo de visiones apocalípticas y verdades divinas que pocos pueden soportar. Como childe de Pierre l'Imbécile, este influyente vampiro de sexta generación ha dedicado su existencia inmortal a descifrar los secretos de la Gehenna y el Libro de Nod, bajo la firme creencia de que su voz no es suya, sino el eco de una voluntad superior que lo guía a través de las sombras de la historia. A menudo acompañado por la Lasombra Lucita de Aragón y el erudito Gangrel Beckett, Anatole recorre el mundo no como un conquistador, sino como un mensajero del destino final de la Estirpe, cuya presencia inquieta tanto a la Camarilla como al Sabbat por su capacidad de ver más allá del velo de la Mascarada. Su psique es un mosaico de almas y voces, llegando incluso a hablar con el tono de entidades demoníacas o víctimas sacrificadas como Octavio, lo que refleja su naturaleza como un receptáculo de conocimientos prohibidos. Fanático devoto de la Senda de Leopoldo, Anatole observa el declive de los vampiros con una mezcla de piedad y júbilo sombrío, convencido de que su martirio personal y su búsqueda de la iluminación son los únicos faros posibles ante la llegada inminente de las Noches Finales."
     },
     {
         "name": "Bela",
@@ -221,7 +221,7 @@
         "folder": "Ministry",
         "clan": "Ministry",
         "image": "Imagenes/Personajes/Ministry/Aabbt Kindred.png",
-        "description": ""
+        "description": "Los Aabbt Kindred son una aberración única nacida de la voluntad de Nefertiti, quien mediante ritos de hechicería setita y el poder de su sangre antigua logró romper las leyes de la naturaleza al transferir el Abrazo a simples cobras africanas. Estas criaturas, que alguna vez fueron solo reptiles, han pasado décadas bajo el dominio de su creadora, transformándose en guardianes inteligentes que han aprendido a forzar su anatomía mediante la disciplina de Serpentis para adoptar formas humanoides inquietantes y poderosas. Aunque su intelecto ha crecido bajo la tutela de la vitae, siguen siendo seres impulsados por instintos primordiales que cazan roedores por hábito y huyen aterrorizados ante la presencia del fuego. Poseen un veneno letal que aniquila a los mortales al instante y es capaz de hundir incluso al vampiro más antiguo en un letargo profundo si no es expulsado a tiempo. Atados de por vida a la sangre de Nefertiti para asegurar su lealtad y supervivencia ante la luz del sol, estos quince engendros nocturnos representan el éxito de un experimento prohibido que desdibuja la frontera entre la bestia y el condenado."
     },
     {
         "name": "The Beast",
@@ -242,21 +242,21 @@
         "folder": "Toreador",
         "clan": "Toreador",
         "image": "Imagenes/Personajes/Toreador/Alexandra.png",
-        "description": ""
+        "description": "Alexandra encarna la cúspide de la autoridad y la sofisticación dentro de la Camarilla, ocupando un asiento en el legendario Círculo Interno como la representante definitiva del Clan Toreador. Lejos de las pasiones efímeras de los neonatos o las intrigas menores de los Príncipes, ella es una de las mentes arquitectas que sostienen la estructura de la Mascarada a nivel global, decidiendo el destino de linajes enteros con un susurro o un gesto imperceptible. Su belleza no es un simple adorno, sino un arma forjada y preservada a lo largo de siglos de diplomacia letal, ocultando una voluntad de hierro que ha sobrevivido a revueltas, inquisiciones y el paso implacable del tiempo. Como guardiana de los principios fundacionales de la Estirpe, Alexandra observa el mundo desde una posición de indiferencia divina, asegurándose de que el arte del poder y la elegancia de la tradición sigan siendo los pilares sobre los que se asienta el imperio de las sombras que ella misma ayuda a dirigir con una precisión quirúrgica."
     },
     {
         "name": "Alexandra2",
         "folder": "Toreador",
         "clan": "Toreador",
         "image": "Imagenes/Personajes/Toreador/Alexandra2.png",
-        "description": ""
+        "description": "Alexandra encarna la cúspide de la autoridad y la sofisticación dentro de la Camarilla, ocupando un asiento en el legendario Círculo Interno como la representante definitiva del Clan Toreador. Lejos de las pasiones efímeras de los neonatos o las intrigas menores de los Príncipes, ella es una de las mentes arquitectas que sostienen la estructura de la Mascarada a nivel global, decidiendo el destino de linajes enteros con un susurro o un gesto imperceptible. Su belleza no es un simple adorno, sino un arma forjada y preservada a lo largo de siglos de diplomacia letal, ocultando una voluntad de hierro que ha sobrevivido a revueltas, inquisiciones y el paso implacable del tiempo. Como guardiana de los principios fundacionales de la Estirpe, Alexandra observa el mundo desde una posición de indiferencia divina, asegurándose de que el arte del poder y la elegancia de la tradición sigan siendo los pilares sobre los que se asienta el imperio de las sombras que ella misma ayuda a dirigir con una precisión quirúrgica."
     },
     {
         "name": "Anneke",
         "folder": "Toreador",
         "clan": "Toreador",
         "image": "Imagenes/Personajes/Toreador/Anneke.png",
-        "description": ""
+        "description": "Anneke es una de las figuras más respetadas y antiguas dentro de la Camarilla, habiendo servido durante siglos como la Justicar del Clan Toreador, una posición que le otorga un poder casi absoluto sobre la justicia y la política de la secta a nivel mundial. Conocida por poseer una belleza serena y una elegancia que parece detenida en el tiempo, Anneke no es solo una mecenas de las artes, sino una estratega implacable que ha sobrevivido a innumerables purgas y conflictos internos gracias a su agudo instinto y a su capacidad para ver lo que otros ignoran. Se dice que su mirada es capaz de atravesar cualquier engaño, una habilidad que en la mitología de la Estirpe se conoce como el -Ojo del Águila-, permitiéndole vigilar sus dominios y detectar amenazas mucho antes de que se manifiesten. A menudo se la asocia en las crónicas de poder con otras eminencias como Alexandra y Anson, formando un triunvirato de influencia Toreador que dicta las tendencias y las leyes de las noches eternas. A pesar de su apariencia sofisticada y su amor por los entornos refinados, Anneke es una guerrera de la diplomacia letal que no duda en usar toda la maquinaria de la Camarilla para aplastar a los anarquistas o a cualquier elemento que amenace la estabilidad de la Mascarada, recordándoles a todos que tras la máscara de la musa se esconde el corazón de una de las depredadoras más eficaces de la historia vampírica."
     },
     {
         "name": "Anson",
@@ -284,7 +284,7 @@
         "folder": "Tremere",
         "clan": "Tremere",
         "image": "Imagenes/Personajes/Tremere/Antonio d'Erlette.png",
-        "description": ""
+        "description": "Antonio d'Erlette se alza como una de las figuras más trágicas y desafiantes en la cronología de la Estirpe, recordado principalmente como el arquitecto intelectual y fundador de los Tremere antitribu. Originalmente, formó parte del prestigioso Consejo de los Siete de la pirámide Tremere, pero su espíritu inquisitivo y su negativa a someterse a las restricciones políticas de la recién formada Camarilla lo llevaron a orquestar el cisma más profundo del clan. Convencido de que sus hermanos habían traicionado la esencia de la magia de sangre para convertirse en burócratas, Antonio huyó hacia las sombras del Sabbat, fundando la Casa d'Erlette y reclamando para sí y sus seguidores una libertad mística sin precedentes. Bajo su mando, la taumaturgia se despojó de sus límites éticos, hundiéndose en los abismos de la hechicería oscura y los pactos prohibidos para fortalecer a la Espada de Caín contra sus antiguos maestros en Viena. A pesar de su inmenso poder y su genio estratégico, su historia está sellada por un destino cruel y absoluto: fue una de las víctimas primordiales durante la -Noche del Corazón Rojo- en 1998, cuando un ritual masivo lanzado por el clan principal extinguió instantáneamente la vida de todos los Tremere antitribu. Su legado permanece como el recuerdo de un mago soberbio que prefirió la aniquilación total antes que la servidumbre a una pirámide que consideraba corrupta, dejando tras de sí un vacío en la magia de sangre que nadie ha vuelto a llenar."
     },
     {
         "name": "Goratrix",
