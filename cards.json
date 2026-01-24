@@ -1,5 +1,35 @@
 [
     {
+        "name": "Aline Gadeke",
+        "folder": "Brujah",
+        "clan": "Brujah",
+        "image": "Imagenes/Personajes/Brujah/Aline Gadeke.png"
+    },
+    {
+        "name": "Atiena",
+        "folder": "Brujah",
+        "clan": "Brujah",
+        "image": "Imagenes/Personajes/Brujah/Atiena.png"
+    },
+    {
+        "name": "Leumeah",
+        "folder": "Brujah",
+        "clan": "Brujah",
+        "image": "Imagenes/Personajes/Brujah/Leumeah.png"
+    },
+    {
+        "name": "Saku Pihlajamäki",
+        "folder": "Brujah",
+        "clan": "Brujah",
+        "image": "Imagenes/Personajes/Brujah/Saku Pihlajamäki.png"
+    },
+    {
+        "name": "Valeriya Zinovieva",
+        "folder": "Brujah",
+        "clan": "Brujah",
+        "image": "Imagenes/Personajes/Brujah/Valeriya Zinovieva.png"
+    },
+    {
         "name": "Herald Of Topheth",
         "folder": "Aliados",
         "clan": null,
