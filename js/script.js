@@ -46,13 +46,15 @@ async function init() {
 }
 
 /**
- * Genera las opciones del select basadas en las carpetas existentes
+ * Genera las opciones del select basadas en las carpetas existentes (solo Aliados y Combate)
  */
 function populateFolderFilter() {
-    folderFilter.innerHTML = "<option value=\"\">Todas las categorías</option>";
-    const folders = [...new Set(cardsData.map(card => card.folder))].filter(Boolean);
+    folderFilter.innerHTML = "<option value=\"\">Aliados y Combate</option>";
     
-    folders.sort().forEach(folder => {
+    // Solo mostramos Aliados y Combat en este filtro
+    const allowedFolders = ["Aliados", "Combat"];
+    
+    allowedFolders.sort().forEach(folder => {
         const option = document.createElement("option");
         option.value = folder;
         option.textContent = folder;
