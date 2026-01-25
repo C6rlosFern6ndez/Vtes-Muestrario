@@ -1,5 +1,19 @@
 [
     {
+        "name": "Wynn",
+        "folder": "Gangrel",
+        "clan": "Gangrel",
+        "image": "Imagenes/Personajes/Gangrel/Wynn.png",
+        "description": ""
+    },
+    {
+        "name": "Casey Snyder",
+        "folder": "Gangrel",
+        "clan": "Gangrel",
+        "image": "Imagenes/Personajes/Gangrel/Casey Snyder.png",
+        "description": ""
+    },
+    {
         "name": "Kuyen",
         "folder": "Gangrel",
         "clan": "Gangrel",
