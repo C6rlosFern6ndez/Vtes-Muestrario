@@ -28,7 +28,7 @@
     width: 100%;
     background: #000;
     border: 1px solid #444;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 8px;
 }
 
@@ -101,7 +101,7 @@
 .disciplines-stack {
     position: absolute;
     bottom: 85px; /* Bajado de 180px a 85px */
-    left: 15px;
+    left: 25px;
     display: flex;
     flex-direction: column-reverse;
     gap: 4px;
@@ -118,8 +118,8 @@
 .element-description {
     position: absolute;
     bottom: 25px;
-    left: 60px;
-    right: 60px; /* Ajustado para no pisar la gota */
+    left: 75px;
+    right: 36px; /* Ajustado para no pisar la gota */
     min-height: 120px;
     background: rgba(255, 255, 255, 0.6); /* Color negro al 60% de transparencia */
     padding: 10px;
@@ -182,4 +182,10 @@
     font-weight: bold;
     text-transform: uppercase;
     margin-top: 1rem;
+}
+
+#cardText{
+    color: black;
+    font-weight: lighter;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
