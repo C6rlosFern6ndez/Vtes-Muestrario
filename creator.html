@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VTES - Creador de Vástagos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/creator-style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Editor de Cartas</h1>
+        <a href="index.html" class="btn-link">Volver al Muestrario</a>
+    </header>
+
+    <main class="creator-container">
+        <section class="controls">
+            <div class="control-group">
+                <label>Nombre del Personaje</label>
+                <input type="text" id="inputName" placeholder="Nombre de tu personaje">
+            </div>
+
+            <div class="control-group">
+                <label>Imagen del Personaje</label>
+                <input type="file" id="inputImage" accept="image/*">
+                <input type="range" id="imageSize" min="50" max="200" value="100"> <span>Zoom</span>
+            </div>
+
+            <div class="control-group">
+                <!-- Selector de Clan actualizado con los iconos .png disponibles en Imagenes/iconos/Clan -->
+                <label>Clan e Icono</label>
+                <select id="selectClan">
+                    <option value="abominations.png">Abominations</option>
+                    <option value="ahrimanes.png">Ahrimanes</option>
+                    <option value="akunanse.png">Akunanse</option>
+                    <option value="avenger.png">Avenger</option>
+                    <option value="baali.png">Baali</option>
+                    <option value="banuhaqim.png">Banu Haqim</option>
+                    <option value="bloodbrother.png">Blood Brother</option>
+                    <option value="brujah.png">Brujah</option>
+                    <option value="brujahantitribu.png">Brujah Antitribu</option>
+                    <option value="caitiff.png">Caitiff</option>
+                    <option value="daughtersofcacophony.png">Daughters of Cacophony</option>
+                    <option value="defender.png">Defender</option>
+                    <option value="gangrel.png">Gangrel</option>
+                    <option value="gangrelantitribu.png">Gangrel Antitribu</option>
+                    <option value="gargoyles.png">Gargoyles</option>
+                    <option value="giovanni.png">Giovanni</option>
+                    <option value="guruhi.png">Guruhi</option>
+                    <option value="harbingersofskulls.png">Harbingers of Skulls</option>
+                    <option value="hecata.png">Hecata</option>
+                    <option value="innocent.png">Innocent</option>
+                    <option value="ishtarri.png">Ishtarri</option>
+                    <option value="judge.png">Judge</option>
+                    <option value="kiasyd.png">Kiasyd</option>
+                    <option value="lasombra.png">Lasombra</option>
+                    <option value="malkavian.png">Malkavian</option>
+                    <option value="malkavianantitribu.png">Malkavian Antitribu</option>
+                    <option value="martyr.png">Martyr</option>
+                    <option value="ministry.png">Ministry</option>
+                    <option value="nagaraja.png">Nagaraja</option>
+                    <option value="nosferatu.png">Nosferatu</option>
+                    <option value="nosferatuantitribu.png">Nosferatu Antitribu</option>
+                    <option value="osebo.png">Osebo</option>
+                    <option value="pander.png">Pander</option>
+                    <option value="ravnos.png">Ravnos</option>
+                    <option value="redeemer.png">Redeemer</option>
+                    <option value="salubri.png">Salubri</option>
+                    <option value="salubriantitribu.png">Salubri Antitribu</option>
+                    <option value="samedi.png">Samedi</option>
+                    <option value="sealahrimanes.png">Seal Ahrimanes</option>
+                    <option value="sealbloodbrothers.png">Seal Blood Brothers</option>
+                    <option value="sealbrujahantitribu.png">Seal Brujah Antitribu</option>
+                    <option value="sealgangrelantitribu.png">Seal Gangrel Antitribu</option>
+                    <option value="sealharbingerofskulls.png">Seal Harbinger of Skulls</option>
+                    <option value="sealkiasyd.png">Seal Kiasyd</option>
+                    <option value="seallasombra.png">Seal Lasombra</option>
+                    <option value="sealmalkavianantitribu.png">Seal Malkavian Antitribu</option>
+                    <option value="sealnosferatuantitribu.png">Seal Nosferatu Antitribu</option>
+                    <option value="sealpander.png">Seal Pander</option>
+                    <option value="sealsalubriantitribu.png">Seal Salubri Antitribu</option>
+                    <option value="sealtoreadorantitribu.png">Seal Toreador Antitribu</option>
+                    <option value="sealtremereantitribu.png">Seal Tremere Antitribu</option>
+                    <option value="sealtzimisce.png">Seal Tzimisce</option>
+                    <option value="sealventrueantitribu.png">Seal Ventrue Antitribu</option>
+                    <option value="toreador.png">Toreador</option>
+                    <option value="toreadorantitribu.png">Toreador Antitribu</option>
+                    <option value="tremere.png">Tremere</option>
+                    <option value="tremereantitribu.png">Tremere Antitribu</option>
+                    <option value="truebrujah.png">True Brujah</option>
+                    <option value="tzimisce.png">Tzimisce</option>
+                    <option value="ventrue.png">Ventrue</option>
+                    <option value="ventrueantitribu.png">Ventrue Antitribu</option>
+                    <option value="visionary.png">Visionary</option>
+                </select>
+            </div>
+
+            <div class="control-group">
+                <label>Grupo (Cripta)</label>
+                <select id="selectGrupo">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4" selected>4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                </select>
+            </div>
+
+            <div class="control-group">
+                <!-- Selector de Disciplinas actualizado con los iconos .gif disponibles en Imagenes/iconos/Disciplina -->
+                <label>Disciplinas (Selecciona para añadir)</label>
+                <select id="selectDisciplina">
+                    <option value="">-- Seleccionar --</option>
+                    <option value="abombwe.gif">Abombwe</option>
+                    <option value="abombwe_Sup.gif">Abombwe (Superior)</option>
+                    <option value="animalism.gif">Animalism</option>
+                    <option value="animalism_Sup.gif">Animalism (Superior)</option>
+                    <option value="auspex.gif">Auspex</option>
+                    <option value="auspex_Sup.gif">Auspex (Superior)</option>
+                    <option value="celerity.gif">Celerity</option>
+                    <option value="celerity_Sup.gif">Celerity (Superior)</option>
+                    <option value="chimerstry.gif">Chimerstry</option>
+                    <option value="chimerstry_Sup.gif">Chimerstry (Superior)</option>
+                    <option value="daimoinon.gif">Daimoinon</option>
+                    <option value="daimoinon_Sup.gif">Daimoinon (Superior)</option>
+                    <option value="dementation.gif">Dementation</option>
+                    <option value="dementation_Sup.gif">Dementation (Superior)</option>
+                    <option value="dominate.gif">Dominate</option>
+                    <option value="dominate_Sup.gif">Dominate (Superior)</option>
+                    <option value="fortitude.gif">Fortitude</option>
+                    <option value="fortitude_Sup.gif">Fortitude (Superior)</option>
+                    <option value="maleficia.gif">Maleficia</option>
+                    <option value="maleficia_Sup.gif">Maleficia (Superior)</option>
+                    <option value="melpominee.gif">Melpominee</option>
+                    <option value="melpominee_Sup.gif">Melpominee (Superior)</option>
+                    <option value="mytherceria.gif">Mytherceria</option>
+                    <option value="mytherceria_Sup.gif">Mytherceria (Superior)</option>
+                    <option value="necromancy.gif">Necromancy</option>
+                    <option value="necromancy_Sup.gif">Necromancy (Superior)</option>
+                    <option value="obeah.gif">Obeah</option>
+                    <option value="obeah_Sup.gif">Obeah (Superior)</option>
+                    <option value="obfuscate.gif">Obfuscate</option>
+                    <option value="obfuscate_Sup.gif">Obfuscate (Superior)</option>
+                    <option value="obtenebration.gif">Obtenebration</option>
+                    <option value="obtenebration_Sup.gif">Obtenebration (Superior)</option>
+                    <option value="potence.gif">Potence</option>
+                    <option value="potence_Sup.gif">Potence (Superior)</option>
+                    <option value="presence.gif">Presence</option>
+                    <option value="presence_Sup.gif">Presence (Superior)</option>
+                    <option value="protean.gif">Protean</option>
+                    <option value="protean_Sup.gif">Protean (Superior)</option>
+                    <option value="quietus.gif">Quietus</option>
+                    <option value="quietus_Sup.gif">Quietus (Superior)</option>
+                    <option value="sanguinus.gif">Sanguinus</option>
+                    <option value="sanguinus_Sup.gif">Sanguinus (Superior)</option>
+                    <option value="serpentis.gif">Serpentis</option>
+                    <option value="serpentis_Sup.gif">Serpentis (Superior)</option>
+                    <option value="spiritus.gif">Spiritus</option>
+                    <option value="spiritus_Sup.gif">Spiritus (Superior)</option>
+                    <option value="striga.gif">Striga</option>
+                    <option value="striga_Sup.gif">Striga (Superior)</option>
+                    <option value="temporis.gif">Temporis</option>
+                    <option value="temporis_Sup.gif">Temporis (Superior)</option>
+                    <option value="thanatosis.gif">Thanatosis</option>
+                    <option value="thanatosis_Sup.gif">Thanatosis (Superior)</option>
+                    <option value="thaumaturgy.gif">Thaumaturgy</option>
+                    <option value="thaumaturgy_Sup.gif">Thaumaturgy (Superior)</option>
+                    <option value="valeren.gif">Valeren</option>
+                    <option value="valeren_Sup.gif">Valeren (Superior)</option>
+                    <option value="vicissitude.gif">Vicissitude</option>
+                    <option value="vicissitude_Sup.gif">Vicissitude (Superior)</option>
+                    <option value="visceratika.gif">Visceratika</option>
+                    <option value="visceratika_Sup.gif">Visceratika (Superior)</option>
+                </select>
+                <button id="btnClearDisciplines">Limpiar Disciplinas</button>
+            </div>
+
+            <div class="control-group">
+                <label>Capacidad (Sangre)</label>
+                <input type="number" id="inputCapacidad" value="11" min="1" max="11">
+            </div>
+
+            <div class="control-group">
+                <label>Texto de la Carta</label>
+                <textarea id="inputText" rows="4"></textarea>
+            </div>
+
+            <button id="btnDownload" class="btn-download">Descargar Carta</button>
+        </section>
+
+        <section class="preview">
+            <div id="vtesCard" class="vtes-card-canvas">
+                <div class="layer-illustration" id="cardIllustration"></div>
+                <div class="layer-frame"></div>
+                <h2 class="element-name" id="cardName">Nombre</h2>
+
+                <img src="Imagenes/iconos/Clan/malkavian.png" class="element-clan" id="cardClan">
+                <img src="Imagenes/iconos/Logo/logo-vtes.png" class="element-logo">
+
+                <div class="disciplines-stack" id="disciplinesContainer">
+                </div>
+
+                <div class="crypt-number" id="cardCrypt">4</div>
+                <div class="element-description">
+                    <div class="main-text" id="cardText">Escribe aquí las habilidades...</div>
+                </div>
+
+                <div class="element-capacity">
+                    <img src="Imagenes/iconos/Capacidad/Gota-Sangre.png" class="blood-drop-bg">
+                    <span id="capacityValue">11</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/creator-script.js"></script>
+</body>
+
+</html>

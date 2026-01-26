@@ -213,3 +213,16 @@ main {
         width: 100%;
     }
 }
+
+.btn-link {
+    color: var(--text-color);
+    text-decoration: none;
+    border: 1px solid var(--border-gold);
+    padding: 5px 15px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    transition: 0.3s;
+}
+.btn-link:hover {
+    background: var(--accent-color);
+}
