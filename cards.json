@@ -1,5 +1,12 @@
 [
     {
+        "name": "Lutz von Hohenzollern",
+        "folder": "Malkavian",
+        "clan": "Malkavian",
+        "image": "Imagenes/Personajes/Malkavian/Lutz von Hohenzollern.png",
+        "description": ""
+    },
+    {
         "name": "Gilbert Duane",
         "folder": "Malkavian",
         "clan": "Malkavian",
