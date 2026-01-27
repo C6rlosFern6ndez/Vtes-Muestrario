@@ -1,5 +1,12 @@
 [
     {
+        "name": "Black Cat",
+        "folder": "Brujah",
+        "clan": "Brujah",
+        "image": "Imagenes/Personajes/Brujah/Black Cat.png",
+        "description": ""
+    },
+    {
         "name": "Nefertiti",
         "folder": "Ministry",
         "clan": "Ministry",
