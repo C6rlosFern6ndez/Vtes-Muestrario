@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const cardCrypt = document.getElementById("cardCrypt");
   const selectDisciplina = document.getElementById("selectDisciplina");
   const imageSize = document.getElementById("imageSize");
+  const fontSizeInput = document.getElementById("fontSize");
 
   // Elementos de la carta
   const cardName = document.getElementById("cardName");
@@ -25,10 +26,19 @@ document.addEventListener("DOMContentLoaded", () => {
     "input",
     (e) => (cardName.textContent = e.target.value),
   );
-  inputText.addEventListener(
-    "input",
-    (e) => (cardText.textContent = e.target.value),
-  );
+  // inputText.addEventListener(
+  //   "input",
+  //   (e) => (cardText.textContent = e.target.value),
+  // );
+  inputText.addEventListener("input", (e) => {
+    // Usamos innerHTML en lugar de textContent
+    cardText.innerHTML = e.target.value.replace(/\n/g, "<br>");
+  });
+
+  fontSizeInput.addEventListener("input", (e) => {
+    cardText.style.fontSize = `${e.target.value}px`;
+  });
+  
   inputCapacidad.addEventListener(
     "input",
     (e) => (capacityValue.textContent = e.target.value),
