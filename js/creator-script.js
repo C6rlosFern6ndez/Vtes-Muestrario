@@ -1,3 +1,20 @@
+function insertClanSymbol(char) {
+    const textarea = document.getElementById("inputText");
+    const start = textarea.selectionStart;
+    const end = textarea.selectionEnd;
+
+    // Insertamos el símbolo envuelto en un span
+    const symbolHTML = `<span class="clan-symbol">${char}</span>`;
+    const text = textarea.value;
+
+    textarea.value =
+      text.substring(0, start) + symbolHTML + text.substring(end);
+
+    // Forzamos la actualización de la vista previa
+    textarea.dispatchEvent(new Event("input"));
+    textarea.focus();
+  }
+
 document.addEventListener("DOMContentLoaded", () => {
   const vtesCard = document.getElementById("vtesCard");
 
@@ -38,7 +55,7 @@ document.addEventListener("DOMContentLoaded", () => {
   fontSizeInput.addEventListener("input", (e) => {
     cardText.style.fontSize = `${e.target.value}px`;
   });
-  
+
   inputCapacidad.addEventListener(
     "input",
     (e) => (capacityValue.textContent = e.target.value),

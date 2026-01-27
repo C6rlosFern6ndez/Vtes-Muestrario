@@ -186,10 +186,75 @@
                 <input type="number" id="inputCapacidad" value="11" min="1" max="11">
             </div>
 
-            <div class="control-group">
+            <!-- <div class="control-group">
                 <label>Texto de la Carta</label>
                 <input type="range" id="fontSize" min="10" max="24" value="16">
                 <textarea id="inputText" rows="4"></textarea>
+            </div> -->
+
+            <div class="control-group">
+                <label>Texto de la Carta</label>
+                <div class="symbol-bar">
+                    <button type="button" onclick="insertClanSymbol('1')">1</button>
+                    <button type="button" onclick="insertClanSymbol('2')">2</button>
+                    <button type="button" onclick="insertClanSymbol('3')">3</button>
+                    <button type="button" onclick="insertClanSymbol('4')">4</button>
+                    <button type="button" onclick="insertClanSymbol('5')">5</button>
+                    <button type="button" onclick="insertClanSymbol('6')">6</button>
+                    <button type="button" onclick="insertClanSymbol('7')">7</button>
+                    <button type="button" onclick="insertClanSymbol('q')">q</button>
+                    <button type="button" onclick="insertClanSymbol('w')">w</button>
+                    <button type="button" onclick="insertClanSymbol('e')">e</button>
+                    <button type="button" onclick="insertClanSymbol('r')">r</button>
+                    <button type="button" onclick="insertClanSymbol('t')">t</button>
+                    <button type="button" onclick="insertClanSymbol('y')">y</button>
+                    <button type="button" onclick="insertClanSymbol('u')">u</button>
+                    <button type="button" onclick="insertClanSymbol('i')">i</button>
+                    <button type="button" onclick="insertClanSymbol('o')">o</button>
+                    <button type="button" onclick="insertClanSymbol('p')">p</button>
+                    <button type="button" onclick="insertClanSymbol('a')">a</button>
+                    <button type="button" onclick="insertClanSymbol('s')">s</button>
+                    <button type="button" onclick="insertClanSymbol('d')">d</button>
+                    <button type="button" onclick="insertClanSymbol('f')">f</button>
+                    <button type="button" onclick="insertClanSymbol('g')">g</button>
+                    <button type="button" onclick="insertClanSymbol('h')">h</button>
+                    <button type="button" onclick="insertClanSymbol('j')">j</button>
+                    <button type="button" onclick="insertClanSymbol('k')">k</button>
+                    <button type="button" onclick="insertClanSymbol('l')">l</button>
+                    <button type="button" onclick="insertClanSymbol('x')">x</button>
+                    <button type="button" onclick="insertClanSymbol('c')">c</button>
+                    <button type="button" onclick="insertClanSymbol('v')">v</button>
+                    <button type="button" onclick="insertClanSymbol('b')">b</button>
+                    <button type="button" onclick="insertClanSymbol('n')">n</button>
+                    <button type="button" onclick="insertClanSymbol('m')">m</button>
+                    <button type="button" onclick="insertClanSymbol('W')">W</button>
+                    <button type="button" onclick="insertClanSymbol('E')">E</button>
+                    <button type="button" onclick="insertClanSymbol('R')">R</button>
+                    <button type="button" onclick="insertClanSymbol('T')">T</button>
+                    <button type="button" onclick="insertClanSymbol('Y')">Y</button>
+                    <button type="button" onclick="insertClanSymbol('U')">U</button>
+                    <button type="button" onclick="insertClanSymbol('I')">I</button>
+                    <button type="button" onclick="insertClanSymbol('O')">O</button>
+                    <button type="button" onclick="insertClanSymbol('P')">P</button>
+                    <button type="button" onclick="insertClanSymbol('A')">A</button>
+                    <button type="button" onclick="insertClanSymbol('S')">S</button>
+                    <button type="button" onclick="insertClanSymbol('D')">D</button>
+                    <button type="button" onclick="insertClanSymbol('F')">F</button>
+                    <button type="button" onclick="insertClanSymbol('G')">G</button>
+                    <button type="button" onclick="insertClanSymbol('H')">H</button>
+                    <button type="button" onclick="insertClanSymbol('J')">J</button>
+                    <button type="button" onclick="insertClanSymbol('K')">K</button>
+                    <button type="button" onclick="insertClanSymbol('L')">L</button>
+                    <button type="button" onclick="insertClanSymbol('Z')">Z</button>
+                    <button type="button" onclick="insertClanSymbol('X')">X</button>
+                    <button type="button" onclick="insertClanSymbol('C')">C</button>
+                    <button type="button" onclick="insertClanSymbol('V')">V</button>
+                    <button type="button" onclick="insertClanSymbol('B')">B</button>
+                    <button type="button" onclick="insertClanSymbol('N')">N</button>
+                    <button type="button" onclick="insertClanSymbol('M')">M</button>
+                </div>
+                <input type="range" id="fontSize" min="10" max="24" value="16"> <span>Tamaño Fuente</span>
+                <textarea id="inputText" rows="6"></textarea>
             </div>
 
             <button id="btnDownload" class="btn-download">Descargar Carta</button>
@@ -218,6 +283,8 @@
                 </div>
             </div>
         </section>
+
+        <img src="Imagenes/Clanes-Font.png" alt="">
     </main>
 
     <script src="js/creator-script.js"></script>
