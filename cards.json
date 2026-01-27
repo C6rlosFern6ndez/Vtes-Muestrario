@@ -1,5 +1,12 @@
 [
     {
+        "name": "Tura Vaughn",
+        "folder": "Brujah",
+        "clan": "Brujah",
+        "image": "Imagenes/Personajes/Brujah/Tura Vaughn.png",
+        "description": ""
+    },
+    {
         "name": "Black Cat",
         "folder": "Brujah",
         "clan": "Brujah",
