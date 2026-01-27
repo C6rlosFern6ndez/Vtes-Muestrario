@@ -186,6 +186,11 @@
 
 #cardText{
     color: black;
-    font-weight: bold;
-    font-family: sans-serif;
+    font-family: 'Crimson Text', serif;
+    line-height: 1.1;
+    font-size: 16px;
+}
+
+#cardText b, .main-text strong{
+    font-weight: 700;
 }
