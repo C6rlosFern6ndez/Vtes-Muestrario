@@ -1,5 +1,19 @@
 [
     {
+        "name": "Nefertiti",
+        "folder": "Ministry",
+        "clan": "Ministry",
+        "image": "Imagenes/Personajes/Ministry/Nefertiti.png",
+        "description": ""
+    },
+    {
+        "name": "Masika",
+        "folder": "Toreador",
+        "clan": "Toreador",
+        "image": "Imagenes/Personajes/Toreador/Masika.png",
+        "description": ""
+    },
+    {
         "name": "Lutz von Hohenzollern",
         "folder": "Malkavian",
         "clan": "Malkavian",
