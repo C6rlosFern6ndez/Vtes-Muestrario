@@ -39,7 +39,7 @@
         "folder": "Ministry",
         "clan": "Ministry",
         "image": "Imagenes/Personajes/Ministry/Nefertiti.webp",
-        "description": ""
+        "description": "Nefertiti no es simplemente una vampira; es una reliquia viviente de un Egipto que la historia ha olvidado. Como Matusalén del Clan Setita, su mera existencia es un desafío al tiempo. Tras siglos de letargo, despertó no para servir a la causa de su padre Set, sino para reclamar su propio imperio en las sombras. Es una maestra de la corrupción espiritual, capaz de desmantelar la voluntad de un hombre con una mirada dorada y una promesa susurrada. En sus templos ocultos, ha perfeccionado ritos prohibidos que dieron vida a los Aabbt Kindred, demostrando que su dominio sobre la vida y la muerte supera incluso las leyes de la Estirpe. Nefertiti no busca la aprobación de la Camarilla ni del Sabbat; ella espera pacientemente a que el mundo se debilite lo suficiente como para que su red de vicios y serpientes lo consuma por completo."
     },
     {
         "name": "Masika",
@@ -53,7 +53,7 @@
         "folder": "Malkavian",
         "clan": "Malkavian",
         "image": "Imagenes/Personajes/Malkavian/Lutz von Hohenzollern.webp",
-        "description": ""
+        "description": "Lutz personifica la aterradora lucidez que a veces emerge del caos Malkavian. Miembro del prestigioso linaje Hohenzollern, este antiguo diplomático alemán trata a la política de la Camarilla como una partida de ajedrez donde las piezas no saben que están siendo movidas. Su locura no se manifiesta en gritos, sino en una capacidad sobrenatural para ver las conexiones invisibles entre el poder, el linaje y el destino. Como uno de los fundadores intelectuales de la Torre de Marfil en Europa, Lutz utiliza su Auspex para leer las verdades que los Príncipes intentan ocultar tras sus máscaras de etiqueta. No necesita ejércitos; le basta con plantar una idea en la mente adecuada en el momento justo para que imperios enteros se desmoronen. Para Lutz, la Mascarada es el escenario donde él es el único director que conoce el guion completo."
     },
     {
         "name": "Gilbert Duane",
@@ -102,7 +102,7 @@
         "folder": "Banu-Haqim",
         "clan": "Banu-Haqim",
         "image": "Imagenes/Personajes/Banu-Haqim/Izhim abd Azrael.webp",
-        "description": ""
+        "description": "Conocido como el Ángel de la Muerte, Izhim es una leyenda de terror incluso entre sus hermanos asesinos del clan Banu Haqim. Durante siglos, fue la espada definitiva de Alamut, un fanático cuya devoción a la justicia de Haqim lo convirtió en algo más que un vampiro: se convirtió en un mito. Su dominio de la Extinción le permite desaparecer en el aire antes de que el primer rastro de sangre toque el suelo. Sin embargo, su historia dio un giro oscuro cuando fue tentado por el poder del demonio Baali, Shaitan, lo que le valió un lugar permanente en la Lista Roja de la Camarilla. Izhim camina entre dos mundos, perseguido por sus antiguos aliados y temido por sus enemigos, siendo un recordatorio viviente de que incluso la voluntad más pura puede ser corrompida por la búsqueda absoluta del poder."
     },
     {
         "name": "Herald Of Topheth",
@@ -277,14 +277,14 @@
         "folder": "Heraldo-de-las-calaveras",
         "clan": "Heraldo-de-las-calaveras",
         "image": "Imagenes/Personajes/Heraldo-de-las-calaveras/The Capuchin.webp",
-        "description": ""
+        "description": "Envuelto en harapos que huelen a cripta y olvido, el Capuchino es el enigma más peligroso del inframundo vampírico. Nadie conoce su verdadero rostro ni su linaje exacto, aunque los rumores lo vinculan con los restos del exterminado clan Capadocio. Aparece y desaparece de la historia como un presagio de muerte, actuando como el nexo entre el mundo de los vivos y las Tierras de las Sombras. Como líder espiritual de los Heraldos de las Calaveras dentro del Sabbat, el Capuchino posee secretos nigrománticos que harían temblar a los Giovanni. No le interesan los territorios ni los votos; su único objetivo parece ser la recolección de almas y el cumplimiento de una agenda milenaria que solo él comprende. Cuando el Capuchino habla, hasta los antiguos guardan silencio, pues sus palabras suelen ser el epitafio de ciudades enteras."
     },
     {
         "name": "Moncada",
         "folder": "Lasombra",
         "clan": "Lasombra",
         "image": "Imagenes/Personajes/Lasombra/Moncada.webp",
-        "description": ""
+        "description": "El Cardenal Ambrosio Luis Monçada es la oscuridad vestida de santidad. Desde su catedral en Madrid, este pilar del Sabbat ha convertido la fe en el arma más letal de la Espada de Caín. Monçada no ve contradicción entre su devoción religiosa y su naturaleza de depredador; para él, los vampiros son el castigo divino enviado para purgar el mundo. Como maestro absoluto de la Obtenebración, las sombras se arrodillan ante él, cobrando vida propia para asfixiar a los infieles. Es el sire de Lucita de Aragón, con quien mantiene una guerra psicológica eterna que define gran parte del conflicto interno de su clan. Monçada no solo busca el control político; busca la salvación a través de la atrocidad, convencido de que solo en la negrura absoluta se puede ver la verdadera luz de Dios."
     },
     {
         "name": "Anatole",
@@ -368,7 +368,7 @@
         "folder": "Toreador",
         "clan": "Toreador",
         "image": "Imagenes/Personajes/Toreador/Fancois-Villon.webp",
-        "description": ""
+        "description": "Como Príncipe de París, François Villon ha convertido la Ciudad de la Luz en su galería personal de intrigas y arte. El antiguo poeta real de Francia gobierna con una elegancia que esconde una crueldad absoluta. Bajo su mandato, la etiqueta no es una cortesía, es una ley; un error en el baile puede ser tan fatal como una estocada en el pecho. Villon es el prototipo del Toreador de la Camarilla: encantador, sofisticado y profundamente peligroso. Ha sobrevivido a revoluciones, guerras mundiales y a la Inquisición, manteniendo a París como el centro cultural de la Estirpe. Para Villon, el poder es la forma de arte definitiva, y él se asegura de que cada noche sea una obra maestra de control, belleza y, cuando es necesario, una violencia estéticamente perfecta."
     },
     {
         "name": "Maraina Gilbert",
