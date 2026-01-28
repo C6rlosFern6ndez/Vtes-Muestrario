@@ -112,8 +112,8 @@ document.addEventListener("DOMContentLoaded", () => {
       scale: 2, // Mayor calidad
     }).then((canvas) => {
       const link = document.createElement("a");
-      link.download = `vtes-card-${inputName.value || "vampiro"}.png`;
-      link.href = canvas.toDataURL("image/png");
+      link.download = `vtes-card-${inputName.value || "vampiro"}.webp`;
+      link.href = canvas.toDataURL("image/webp");
       link.click();
     });
   });
