@@ -1,5 +1,26 @@
 [
     {
+        "name": "Andreas, The Bard of Crete",
+        "folder": "Toreador",
+        "clan": "Toreador",
+        "image": "Imagenes/Personajes/Toreador/Andreas, The Bard of Crete.png",
+        "description": ""
+    },
+    {
+        "name": "Rake",
+        "folder": "Brujah",
+        "clan": "Brujah",
+        "image": "Imagenes/Personajes/Brujah/Rake.png",
+        "description": ""
+    },
+    {
+        "name": "Crusher",
+        "folder": "Brujah",
+        "clan": "Brujah",
+        "image": "Imagenes/Personajes/Brujah/Crusher.png",
+        "description": ""
+    },
+    {
         "name": "Tura Vaughn",
         "folder": "Brujah",
         "clan": "Brujah",
