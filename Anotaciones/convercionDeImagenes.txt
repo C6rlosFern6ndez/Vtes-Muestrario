@@ -1,0 +1,22 @@
+Instalar ffmpeg:
+choco install ffmpeg
+
+
+Desde terminal:
+
+Git Bash:
+
+for f in Imagenes/Personajes/*.{png,jpg,jpeg}; do 
+    if [ -f "$f" ]; then
+        ffmpeg -i "$f" -q:v 80 "${f%.*}.webp" && rm "$f"
+    fi
+done
+
+
+PowerShell:
+
+Get-ChildItem "Imagenes/Personajes" -Include *.png, *.jpg, *.jpeg -Recurse | ForEach-Object {
+    $webpName = $_.FullName -replace '\.(png|jpg|jpeg)$', '.webp'
+    ffmpeg -i $_.FullName -q:v 80 $webpName
+    if ($LASTEXITCODE -eq 0) { Remove-Item $_.FullName }
+}
