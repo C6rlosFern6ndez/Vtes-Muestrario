@@ -1,5 +1,12 @@
 [
     {
+        "name": "Makarios, The Seducer",
+        "folder": "Toreador",
+        "clan": "Toreador",
+        "image": "Imagenes/Personajes/Toreador/Makarios, The Seducer.webp",
+        "description": ""
+    },
+    {
         "name": "Andreas, The Bard of Crete",
         "folder": "Toreador",
         "clan": "Toreador",
